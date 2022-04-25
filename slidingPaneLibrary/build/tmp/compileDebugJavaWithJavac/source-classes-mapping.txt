@@ -1,0 +1,26 @@
+com/mapsaurus/paneslayout/PanesSizer.java
+ com.mapsaurus.paneslayout.PanesSizer
+ com.mapsaurus.paneslayout.PanesSizer$PaneSizer
+com/mapsaurus/paneslayout/PhoneDelegate.java
+ com.mapsaurus.paneslayout.PhoneDelegate
+ com.mapsaurus.paneslayout.PhoneDelegate$1
+com/mapsaurus/paneslayout/FragmentLauncher.java
+ com.mapsaurus.paneslayout.FragmentLauncher
+com/mapsaurus/paneslayout/MenuItemWrapper.java
+ com.mapsaurus.paneslayout.MenuItemWrapper
+com/mapsaurus/panelayout/BuildConfig.java
+ com.mapsaurus.panelayout.BuildConfig
+com/mapsaurus/paneslayout/PanesActivity.java
+ com.mapsaurus.paneslayout.PanesActivity
+com/mapsaurus/paneslayout/ActivityDelegate.java
+ com.mapsaurus.paneslayout.ActivityDelegate
+com/mapsaurus/paneslayout/SimpleScrollView.java
+ com.mapsaurus.paneslayout.SimpleScrollView
+com/mapsaurus/paneslayout/Utils.java
+ com.mapsaurus.paneslayout.Utils
+com/mapsaurus/paneslayout/PanesLayout.java
+ com.mapsaurus.paneslayout.PanesLayout
+ com.mapsaurus.paneslayout.PanesLayout$OnIndexChangedListener
+ com.mapsaurus.paneslayout.PanesLayout$PaneView
+com/mapsaurus/paneslayout/TabletDelegate.java
+ com.mapsaurus.paneslayout.TabletDelegate

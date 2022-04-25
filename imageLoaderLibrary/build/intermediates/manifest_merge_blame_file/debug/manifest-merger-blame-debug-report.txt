@@ -1,0 +1,13 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nostra13.universalimageloader"
+4    android:versionCode="38"
+5    android:versionName="1.9.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->D:\Android Projects\E TEAM\work\IsoleBorromee\imageLoaderLibrary\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\Android Projects\E TEAM\work\IsoleBorromee\imageLoaderLibrary\src\main\AndroidManifest.xml
+10
+11</manifest>
