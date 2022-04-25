@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw800dp-v13\\values-sw800dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\values-sw800dp\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,146",
+                        "endColumns": "52,45",
+                        "endOffsets": "140,187"
+                    },
+                    "to": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "156,209",
+                        "endColumns": "52,45",
+                        "endOffsets": "204,250"
+                    }
+                },
+                {
+                    "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\values-sw800dp\\colors.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,1",
+                        "startOffsets": "63,114",
+                        "endColumns": "51,45",
+                        "endOffsets": "110,158"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,107",
+                        "endColumns": "51,48",
+                        "endOffsets": "102,151"
+                    }
+                }
+            ]
+        }
+    ]
+}

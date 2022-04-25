@@ -1,0 +1,88 @@
+[
+    {
+        "outputFile": "E:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 44,
+                    "endOffset": 95
+                },
+                "from": {
+                    "file": "E:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 498,
+                        "endColumn": 41,
+                        "endOffset": 538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endColumn": 38,
+                    "endOffset": 134
+                },
+                "from": {
+                    "file": "E:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 1,
+                        "startOffset": 461,
+                        "endColumn": 35,
+                        "endOffset": 495
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "E:\\projects\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 44,
+                    "endOffset": 95
+                },
+                "from": {
+                    "file": "E:\\projects\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 498,
+                        "endColumn": 41,
+                        "endOffset": 538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endColumn": 38,
+                    "endOffset": 134
+                },
+                "from": {
+                    "file": "E:\\projects\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 1,
+                        "startOffset": 461,
+                        "endColumn": 35,
+                        "endOffset": 495
+                    }
+                }
+            }
+        ]
+    }
+]

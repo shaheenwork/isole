@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@android:color/black">
+
+	<com.ezenit.customview.SwipeableViewPager
+		android:id="@+id/pager"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_60_transparent">
+		
+        <LinearLayout 
+		    android:id="@+id/btnBack"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_centerVertical="true"
+		    android:padding="10dp"
+		    android:layout_alignTop="@id/layoutTitle"
+		    android:layout_alignBottom="@+id/layoutTitle">
+		    <!-- <ImageView 
+		        android:id="@+id/icAppLogo"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_vertical"
+		        android:src="@drawable/ic_app_back_white"/> -->
+		    <com.ezenit.customview.IsoleTextView 
+		        android:id="@+id/lblBack"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/close"
+		        android:textColor="@android:color/white"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:layout_gravity="center"/>
+		</LinearLayout>
+        
+        <LinearLayout 
+		    android:id="@+id/btnDummy"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_centerVertical="true"
+		    android:padding="10dp"
+		    android:layout_alignParentRight="true"
+		    android:visibility="invisible">
+		    <!-- <ImageView 
+		        android:id="@+id/icAppLogo"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_vertical"
+		        android:src="@drawable/ic_app_back_white"/> -->
+		    <com.ezenit.customview.IsoleTextView 
+		        android:id="@+id/lblDummy"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/close"
+		        android:textColor="@android:color/white"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:layout_gravity="center"/>
+		</LinearLayout>
+		
+		<LinearLayout 
+		    android:id="@+id/layoutTitle"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:paddingTop="5dp"
+        	android:paddingBottom="5dp"
+        	android:layout_toRightOf="@id/btnBack"
+        	android:layout_toLeftOf="@id/btnDummy">
+	        <com.ezenit.customview.IsoleTextView
+	            android:id="@+id/fieldTitle"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="@android:color/white"
+	            android:text="@string/image_title"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:layout_gravity="center_horizontal"
+				android:textStyle="bold"
+	            android:gravity="center_horizontal" />
+	         <com.ezenit.customview.IsoleTextView
+	            android:id="@+id/fieldSubTitle"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="@android:color/white"
+	            android:text="@string/photo_gallery"
+	            android:textAppearance="?android:attr/textAppearanceSmall" 
+	            android:layout_gravity="center_horizontal"
+	            android:gravity="center_horizontal" />
+        </LinearLayout>
+        
+		
+        
+		
+
+    </RelativeLayout>
+    
+     <LinearLayout
+        android:id="@+id/desc_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_60_transparent"
+        android:visibility="gone" >
+		<com.ezenit.customview.IsoleTextView
+            android:id="@+id/fieldDescTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="@string/image_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="center_horizontal"
+			android:textStyle="bold"
+            android:padding="10dp"/>
+
+        <com.ezenit.customview.IsoleTextView
+            android:id="@+id/fieldDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/image_desc"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:layout_gravity="center_horizontal"
+
+            android:padding="10dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

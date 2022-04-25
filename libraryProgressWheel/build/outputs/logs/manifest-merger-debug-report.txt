@@ -1,0 +1,35 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:3:5-52
+		INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:5:5-30
+	xmlns:android
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:4:5-28
+application
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:9:5-21:19
+	android:label
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:10:9-45
+uses-sdk
+INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml
+INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml
+INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml
+INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml

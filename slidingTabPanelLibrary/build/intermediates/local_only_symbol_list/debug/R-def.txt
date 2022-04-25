@@ -1,0 +1,16 @@
+R_DEF: Internal format may change without notice
+local
+attr? pstsDividerColor
+attr? pstsDividerPadding
+attr? pstsIndicatorColor
+attr? pstsIndicatorHeight
+attr? pstsScrollOffset
+attr? pstsShouldExpand
+attr? pstsTabBackground
+attr? pstsTabPaddingLeftRight
+attr? pstsTextAllCaps
+attr? pstsUnderlineColor
+attr? pstsUnderlineHeight
+color background_tab_pressed
+drawable background_tab
+styleable PagerSlidingTabStrip pstsIndicatorColor pstsUnderlineColor pstsDividerColor pstsIndicatorHeight pstsUnderlineHeight pstsDividerPadding pstsTabPaddingLeftRight pstsScrollOffset pstsTabBackground pstsShouldExpand pstsTextAllCaps

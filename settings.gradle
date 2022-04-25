@@ -1,0 +1,7 @@
+include ':imageLoaderLibrary'
+include ':imageMapLibrary'
+include ':libraryProgressWheel'
+include ':slidingPaneLibrary'
+include ':slidingTabPanelLibrary'
+include ':stickyScrollViewLibrary'
+include ':isoleBorromee'

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\workspacesnew\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\main.xml",
+        "source": "E:\\workspacesnew\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\bundles\\debug\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\projects\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\main.xml",
+        "source": "E:\\projects\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\bundles\\debug\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\workspacesnew\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\global.xml",
+        "source": "E:\\workspacesnew\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\bundles\\debug\\res\\menu\\global.xml"
+    },
+    {
+        "merged": "E:\\workspacesnew\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\activity_pane_layout_example.xml",
+        "source": "E:\\workspacesnew\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\bundles\\debug\\res\\menu\\activity_pane_layout_example.xml"
+    },
+    {
+        "merged": "E:\\projects\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\activity_pane_layout_example.xml",
+        "source": "E:\\projects\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\bundles\\debug\\res\\menu\\activity_pane_layout_example.xml"
+    },
+    {
+        "merged": "E:\\projects\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\global.xml",
+        "source": "E:\\projects\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\bundles\\debug\\res\\menu\\global.xml"
+    }
+]

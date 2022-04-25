@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Riflessioni Plastiche</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="settings">Settings</string>
+    
+    <string name="pause">Pause</string>
+    <string name="cancel">Cancel</string>
+    
+    <string name="queueing">Queueing</string>
+    
+    <!-- Image Gallery -->
+     <string name="image_title">Title</string>
+     <string name="image_desc">Description</string>
+
+    <!-- Start Page -->
+    <string name="select_language">Welcome to Riflessioni Plastiche audioguide</string>
+    <string name="select_fav_language">Welcome to Riflessioni Plastiche audioguide.\nChoose a language.</string> 
+    <string name="welcome">Welcome to Riflessioni Plastiche Audioguide</string>
+    
+    <string name="isole_borromee">Riflessioni\nPlastiche</string>
+    
+    <string name="isola_bella">Riflessioni Plastiche</string>
+    <string name="isola_madre">Isola Madre</string>
+    <string name="rocca_d_angera">Rocca d\'Angera</string>
+    <string name="all_in_one">All in one</string>
+    
+    <string name="end">End</string>
+    <string name="map_del_palazzo">Map of the event</string>
+    
+    <string name="audio_guide_palace">Audio guide\nof the event</string> 
+    <string name="audio_guide_general">Audio guide general</string>
+    <string name="audio_guide_garden">Event Guide</string>
+    
+    <string name="audio_guide">Audio guide</string>
+    
+    <string name="search_by_code">Search by code</string>
+    
+    <string name="play_audio">Play Audio</string>
+    <string name="pause_audio">Pause Audio</string>
+    
+    <string name="code_audio">Code audio</string>
+    <string name="cod_with_dot">Cod.</string>
+    <string name="position">Position:</string>
+    <string name="hyphen">-</string>
+    
+    <string name="where_is_it">Where is it</string>
+    
+    <string name="item_already_purchased">Item already purchased, please restore it from settings</string>    
+    <string name="language">Language</string>
+    <string name="restore_your_purchase">Restore your purchases</string>
+    <string name="infos">Infos</string>
+    <string name="restoring_your_purchase">Restoring your purchases</string>
+    <string name="restore_successful">Restore successful</string>
+    <string name="restore_failed">Restore failed, try again later</string>
+    <string name="restore_no_prev_purchase">No previous purchases found to restore</string>
+    
+    <string name="version">Version</string>
+
+    <string name="terms_of_service">Terms of service</string>
+    <string name="credits">Credits</string>
+    
+    <string name="download">Download</string>
+    <string name="downloading">Downloading</string>
+    <string name="installing">Installing</string>
+    
+    <string name="preparing">Preparing</string>
+    
+    <string name="downloading_audio_guide">Downloading audio guide</string>
+     <string name="installing_audio_guide">Installing audio guide</string>
+     
+     <string name="installation_failed">Installation failed</string>
+     
+     <string name="in_queue">In queue</string>
+  	
+     <string name="close">Close</string>
+     
+     <string name="msg_title_palazzo">Audio guide of the event</string>
+	<string name="msg_buy_ag_isole_bella">Buy the complete audio guide of the Isole Bella</string>
+	<string name="msg_buy_ag_isole_madre">Buy the complete audio guide of the Isole Madre</string>
+     
+     <string name="buy_all_in_one">Isola Bella Audioguide,\nIsola Madre Audioguide,\nRocca d’Angera Audioguide</string>
+     
+     <string name="download_all_bought">Do you want to download now all the purchased contents?</string>
+
+    <string-array name="languages">
+        <item >English</item>
+        <item >Italiano</item>
+    </string-array>
+    
+    <string name="automatic">Automatic</string>
+    <string name="play_on">Play: ON</string>
+    <string name="play_off">Play: OFF</string>
+        
+    <string name="code">Code</string>
+    <string name="nr_audio">Nr. Audio</string>
+    <!-- Dummy Data -->
+    
+    <string name="dummy_quatro_camerino">Quatro Camerino</string>
+    <string name="dummy_codice">34567</string>
+    <string name="dummy_stanza_arrazi">Stanza Arrazzi (3)</string>
+    
+    <string name="dummy_description">Lorem Ipsum is simply dummy text of the printing and 
+        typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever 
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but also the 
+        leap into electronic typesetting, remaining essentially unchanged. It was popularised
+        in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+        and more recently with desktop publishing software like Aldus PageMaker including 
+        versions of Lorem Ipsum.</string>
+        
+   <string name="credits_desc"><![CDATA[Audiotour made for<br/><b>S.A.G. srl</b><br/><br/>Project and development<br/><b>Gruppo Zenit<b/><br/><br/>The contents (texts, photos and audio) that appear inside this App belong to S.A.G. srl and are under copyright registration. Reuse, modification, distribution or commercialization by third parties is therefore not allowed.]]></string>
+        
+    <string name="export">Export</string>
+    <string name="clear_app_data">Clear App Data</string>
+    <string name="export_failed">Export Failed</string>
+
+    <string name="cover_art">Cover art</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="next_song">Next song</string>
+    <string name="close_notification">Close notification</string>
+    
+    	<plurals name="playing">
+		<item quantity="one">1 song playing.</item>
+		<item quantity="other">%d songs playing.</item>
+	</plurals>
+	<plurals name="enqueued">
+		<item quantity="one">1 song enqueued.</item>
+		<item quantity="other">%d songs enqueued.</item>
+	</plurals>
+	
+	<string name="notification_title_paused">%s (Paused)</string>
+	
+
+	
+	<!--<string name="isole_bela_desc"><![CDATA[The Isola Bella of the Borromeo Gulf is a real place but it feels like a dream.  Before our eyes stretches a grand baroque vision, a spectacular theatre of buildings and gardens rising from the waters and surrounded by mountains.  What was once a bare rock outcrop, home to a handful of fishermen, was transformed between the Seventeenth and Eighteenth Centuries into one of the most delightful places in the whole of Italy.   The princely Palace of the Borromeo is built on the Northern part of the Island, and houses exceptionally significant furniture and artworks.  Alcoves and ballrooms, galleries of paintings and collections of tapestries, closets and grottoes alternates in a thrilling tour dense with exciting surprises.<br/>The visit continues through the Italianate Gardens, which have remained intact and unique worldwide for their extremely peculiar shape: a pyramid of  ten terraces raising above the lake, peopled with statues, obelisks, fountains, nymphs, espaliers of flowers and citrous fruit trees.  During the Romantic age new plants and new essences, new flowers and new conservatories were added to the previous ones.  And finally the last arrival, the true lords of the gardens: the white peacocks of the Borromeo.]]></string>
+	--><string name="isole_bela_desc"><![CDATA[Test.]]></string>
+	<string name="isole_madre_desc"><![CDATA[This was the first of the Islands of the Borromean Archipelago to be inhabited by the noble Milanese family in the XVI century, and to this it owes its name of “Isola Madre”, the "Mother Island". The severe palace facing towards the Stresa shore of the lake, built under the direction of Pellegrino Tibaldi, famous Sixteenth Century architect and painter, active at the time of Cardinal Carlo Borromeo and King Philip II of Spain.  Visiting the palace is like plunging into the past, because the decor that embellishes the rooms mainly dates back to the first years of the Seventeenth Century.<br/>Once there were on the island coeval Italianate gardens, with terraces and plenty of fruit trees. Nowadays the green areas of Isola Madre are an admirable example of romantic English garden, with blocks of greenery which suddenly open to the surrounding landscape and offer spectacular blooms throughout the Spring and Summer months.  However the garden of Isola Madre is also full of life: innumerable ornamental birds live serene and undisturbed on the lawns and clearings of the park.]]></string>
+	<string name="rocca_d_angera_desc"><![CDATA[The Angera Fortress is a perfectly and entirely well preserved Medieval fortress. It was built by the Visconti family in an impressive strategic spot on top of a cliff which looks down onto the Southernmost part of Lake Maggiore.  The Visconti family had the interior painted with a very important series of frescoes narrating the story of the decisive victory of the Visconti on the rival family of Torriani in 1277, which led to the command of the family over the town of Milan.<br/>In the Fifteenth Century the Angera Fortress passed into the hands of the Borromeo family, who kept it intact and unchanged until our days, enriching its interiors with precious furniture and unique collections, as the rich collection of historical dolls and toys.<br/>A Medieval Garden has recently been built around the Fortress. In a secluded and enchanted place which faithfully copies the shapes and uses of Medieval gardens, which were mainly intended for production. For this reason there are "verzieri" (vegetable gardens) of fruit and vegetables, gardens of medicinal herbs and flowers (reserved to the people living in the castle). At the end stretch the groves which separated the gardens from the lawns where the livestock used to pasture.]]></string>
+    
+	<string name="photo_gallery">Photo Gallery</string>
+	
+	<string name="image_unavailable">Image Unavailable</string>
+	
+	<string name="buy">Buy</string>
+	
+	<string name="special_offer">Special offer</string>
+	<string name="msg_buy_all">You can buy all the contents of the application for a special price</string>
+	
+	<string name="msg_download_gallery">You can download free gallery</string>
+	
+	<string name="room">Place</string>
+	
+	<string name="audio_guide_load_failed">Audio guide is corrupted. Please redownload to fix it.</string>
+	
+	<!-- Inapp errors -->
+	<string name="msg_inapp_verification_failed">Error purchasing. Authenticity verification failed.</string>
+	<string name="msg_inapp_error_purchasing">Error:</string>
+	<string name="msg_inapp_user_cancelled">The purchase was cancelled by the user.</string>
+</resources>

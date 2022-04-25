@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_primary_color" >
+    
+    <ImageView 
+        android:id="@+id/btnLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/close"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_app_bck"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        android:visibility="visible"
+        android:background="@drawable/btn_menu"
+        android:layout_alignParentLeft="true"/>
+    
+     <com.ezenit.customview.IsoleTextView  
+        android:id="@+id/invisibleBarrier"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/close"
+        android:scaleType="fitCenter"
+        android:textColor="@color/txt_action_bar"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:visibility="invisible"
+        android:background="@drawable/btn_menu"
+        android:layout_alignParentRight="true"/>
+     
+      <LinearLayout 
+        android:id="@+id/layoutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/btnLeft"
+        android:layout_toLeftOf="@id/invisibleBarrier">
+	    <com.ezenit.customview.IsoleTextView 
+	        android:id="@+id/fieldTitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/select_language"
+	        android:textColor="@color/txt_action_bar"
+	        android:textStyle="bold"
+	        android:textSize="17sp"
+	        android:singleLine="true"
+	        android:ellipsize="end"
+	        android:layout_gravity="center_horizontal"
+	        android:visibility="gone"/>
+	    
+	    <com.ezenit.customview.IsoleTextView 
+	        android:id="@+id/fieldSubTitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/select_language"
+	        android:textColor="@color/txt_action_bar"
+	        android:textSize="14sp"
+			android:textStyle="bold"
+	        android:layout_gravity="center_horizontal"
+	        android:visibility="gone"/>
+    </LinearLayout>
+    
+ 
+    <com.ezenit.customview.IsoleTextView  
+        android:id="@+id/btnTextRight"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/end"
+        android:textColor="@color/txt_action_bar"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textSize="17sp"
+        android:background="@drawable/btn_menu"
+        android:visibility="gone"/>
+    <ImageView
+        android:id="@+id/btnRight"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="@drawable/btn_menu"/>
+    
+      
+
+</RelativeLayout>

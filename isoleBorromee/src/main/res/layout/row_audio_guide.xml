@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_list_row_white">
+    <FrameLayout 
+        android:id="@+id/layoutImage"
+        android:layout_width="66dp"
+        android:layout_height="66dp">
+        <ProgressBar 
+            android:id="@+id/imgProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@android:style/Widget.ProgressBar.Small"
+            />
+        <ImageView 
+            android:id="@+id/imgAudioGuide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+    </FrameLayout>
+    
+     <ImageView 
+        android:id="@+id/imgDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_list_arrow"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginLeft="11dp"/>
+     
+     <TextView 
+         android:id="@+id/fieldChildNumber"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_toLeftOf="@id/imgDetail"
+         android:layout_centerVertical="true"
+         android:textColor="@color/txt_parent_number"
+         android:textSize="17sp"/>
+	
+    <LinearLayout 
+        android:id="@+id/layoutDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/layoutImage"
+        android:layout_toLeftOf="@id/fieldChildNumber"
+        android:layout_centerVertical="true">
+	    <TextView 
+	        android:id="@+id/fieldTitle"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:textColor="@color/txt_row_audioguide"
+	        android:text="Sala delle Armi"
+	        android:textStyle="bold"
+	        style="@android:style/TextAppearance.Medium"
+	        android:singleLine="true"
+	        android:ellipsize="end"/>
+	    
+	    <TextView 
+	        android:id="@+id/fieldDetails"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:textColor="@color/txt_row_audioguide_code"
+	        android:text="Codice: 3452 - Posizione: 1"
+	        style="@android:style/TextAppearance.Small"
+	        android:layout_marginTop="2dp"
+	        android:singleLine="true"
+	        android:ellipsize="end"/>
+    </LinearLayout>
+    
+   
+    
+</RelativeLayout>

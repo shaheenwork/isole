@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <FrameLayout 
+        android:id="@+id/layoutSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F2F2F2">
+       
+        <RelativeLayout 
+            android:id="@+id/layoutFieldSearchInner"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/bg_normal_field"
+            android:layout_margin="7dp">
+            <TextView 
+                android:id="@+id/btnClear"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:text="X"
+                android:gravity="center"
+                android:textColor="#689099"
+                android:background="@drawable/bg_circle"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"/>
+            
+	        <EditText 
+	            android:id="@+id/fieldSearch"
+	            android:layout_width="match_parent"
+	            android:layout_height="36dp"
+	            android:hint="@string/search_by_code"
+	            android:textColorHint="#979797"
+	            android:textAppearance="@android:style/TextAppearance.Small"
+	            android:gravity="left|center_vertical"
+	            android:paddingLeft="15dp"
+	            android:paddingRight="15dp"
+	            android:textColor="#666666"	           
+	            android:textCursorDrawable="@drawable/cursor"
+	            android:singleLine="true"
+	            android:imeOptions="actionSearch"
+	            android:layout_toLeftOf="@id/btnClear"
+	            android:background="@android:color/transparent"/>
+        </RelativeLayout>
+    </FrameLayout>
+    
+    
+	<ExpandableListView 
+	    android:id="@+id/list"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:cacheColorHint="#00000000"
+	    android:divider="#CCCCCC"
+	    android:childDivider="#CCCCCC"
+	    android:background="#F7F7F7"
+	    android:groupIndicator="@null"
+	    android:childIndicator="@null"
+	    android:drawSelectorOnTop="false"
+	    android:listSelector="@drawable/bg_list_row_white_selected"
+	    android:dividerHeight="1dp"></ExpandableListView>
+</LinearLayout>

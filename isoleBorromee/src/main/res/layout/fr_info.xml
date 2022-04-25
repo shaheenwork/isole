@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#EEEEEE">
+    
+    <FrameLayout 
+	        android:id="@+id/layoutVersion"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="@dimen/padding_credit"	        
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white">
+	        <TextView 
+	            android:id="@+id/lblVersion"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/version"
+	            android:textColor="#333333"
+	            android:layout_gravity="center_vertical"/>
+	        <TextView 
+	            android:id="@+id/fieldVersion"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#333333"
+	            android:layout_gravity="right|center_vertical"/>
+	    </FrameLayout>
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1dp"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:background="#DADADA"/>
+	    <TextView 
+            android:id="@+id/btnCredits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/credits"
+            android:textColor="#333333"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/padding_credit"	
+        	android:background="@android:color/white"/>
+
+    <LinearLayout 
+        android:id="@+id/layoutList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:visibility="gone">
+        
+        <TextView 
+            android:id="@+id/btnTermsOfService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_of_service"
+            android:textColor="#333333"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/white"
+            android:padding="@dimen/padding_credit"	
+            android:visibility="gone"/>
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1dp"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:background="#DADADA"
+	        android:visibility="gone"/>
+	   <!--  <TextView 
+            android:id="@+id/btnCredits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/credits"
+            android:textColor="#333333"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/padding_credit"	
+        	android:background="@android:color/white"/> -->
+	        
+	</LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    
+    android:animateLayoutChanges="true" >
+    
+	
+	<LinearLayout 
+	    android:id="@+id/layoutInner"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical">
+	    
+	    <FrameLayout 
+		    android:id="@+id/fragContainer"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"></FrameLayout>
+	
+		<RelativeLayout 
+		    android:id="@+id/layoutAudioPlayer"
+		    android:layout_width="match_parent"
+		    android:layout_height="50dp"
+		    android:background="@color/bg_audio_player"
+		    android:layout_weight="0">
+		    <FrameLayout 
+		        android:id="@+id/layoutAudioArt"
+		        android:layout_width="50dp"
+		        android:layout_height="match_parent">
+		        <ProgressBar 
+			        android:id="@+id/imgProgress"
+			        android:layout_width="24dp"
+			        android:layout_height="24dp"
+			        style="@android:style/Widget.ProgressBar.Small"
+			        android:layout_gravity="center"/>
+			    <ImageView
+			        android:id="@+id/imgAudio"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:scaleType="centerCrop"/>
+			    
+		    </FrameLayout>
+		   	   	
+		   	<FrameLayout 
+		   	    android:id="@+id/btnAutoPlay"
+		   	    android:layout_width="wrap_content"
+		   	    android:layout_height="match_parent"
+		   	    android:paddingLeft="10dp"
+		   	    android:paddingRight="10dp"
+		   	    android:layout_alignParentRight="true"
+		   	    android:layout_alignParentEnd="true"
+		   	    android:background="#2C5760">
+			   	<LinearLayout 
+			   	    android:id="@+id/layoutText"
+			   	    android:layout_width="wrap_content"
+			   	    android:layout_height="wrap_content"
+			   	    android:orientation="vertical"
+			   	    android:layout_gravity="center">
+			   	    <com.ezenit.customview.IsoleTextView 
+			   	        android:id="@+id/lblAutomatic"
+			   	        android:layout_width="wrap_content"
+			   	        android:layout_height="wrap_content"
+			   	        android:text="@string/automatic"
+			   	        android:textColor="@android:color/white"/>
+			   	    <com.ezenit.customview.IsoleTextView 
+			   	        android:id="@+id/lblPlay"
+			   	        android:layout_width="wrap_content"
+			   	        android:layout_height="wrap_content"
+			   	        android:text="@string/play_on"
+			   	        android:textColor="@android:color/white"/>
+			   	</LinearLayout>
+		   	</FrameLayout>
+		   	
+		
+		   	<ImageButton
+				android:id="@+id/play_pause"
+				android:layout_height="match_parent"
+				android:layout_width="wrap_content"
+				android:paddingLeft="15dp"
+				android:paddingRight="15dp"
+				android:layout_gravity="center"
+				android:background="?android:attr/selectableItemBackground"
+				android:scaleType="fitCenter"
+				android:src="@drawable/ic_play"
+				android:clickable="true"
+				android:contentDescription="@string/play_pause"
+				android:layout_toLeftOf="@id/btnAutoPlay"
+				android:layout_toStartOf="@id/btnAutoPlay"/>
+		   	
+		   	 <LinearLayout 
+		   	    android:id="@+id/layoutFields"
+		   	    android:layout_width="match_parent"
+		   	    android:layout_height="wrap_content"
+		   	    android:orientation="vertical"
+			    android:layout_centerVertical="true"
+			    android:paddingLeft="10dp"
+			    android:paddingRight="10dp"
+			    android:layout_toRightOf="@id/layoutAudioArt"
+			    android:layout_toEndOf="@id/layoutAudioArt"
+			    android:layout_toLeftOf="@id/play_pause"
+			    android:layout_toStartOf="@id/play_pause">
+			    <com.ezenit.customview.IsoleTextView 
+			        android:id="@+id/fieldMuseum"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="@android:color/white"
+			        android:singleLine="true"
+			        android:ellipsize="end"/>
+			     
+			    <com.ezenit.customview.IsoleTextView 
+			        android:id="@+id/fieldTitle"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="@android:color/white"
+			        android:textStyle="bold"
+			        android:textSize="14sp"
+			        android:singleLine="true"
+			        android:ellipsize="marquee"
+			        android:marqueeRepeatLimit="marquee_forever"/>
+			    
+			    <com.ezenit.customview.IsoleTextView 
+			        android:id="@+id/fieldPosition"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:singleLine="true"
+			        android:ellipsize="end"
+			        android:textSize="12sp"
+			        android:visibility="gone"
+			        android:textColor="@android:color/white"/>
+		   	</LinearLayout>
+		   	
+		</RelativeLayout>
+	</LinearLayout>
+	
+	
+	<LinearLayout 
+	    android:id="@+id/debugLayout"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_centerHorizontal="true"
+	    >
+		<Button 
+		    android:id="@+id/btnExport"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/export"
+		    android:visibility="gone"/>
+		<Button 
+		    android:id="@+id/btnClear"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/clear_app_data"
+		    android:visibility="gone"/>
+	</LinearLayout>
+</RelativeLayout>

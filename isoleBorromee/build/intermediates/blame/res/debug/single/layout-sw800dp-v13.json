@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp-v13\\fr_list_audio_guide.xml",
+        "source": "E:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\layout-sw800dp\\fr_list_audio_guide.xml"
+    },
+    {
+        "merged": "E:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp-v13\\museum_selection.xml",
+        "source": "E:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\layout-sw800dp\\museum_selection.xml"
+    },
+    {
+        "merged": "E:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp-v13\\fr_audio_detail.xml",
+        "source": "E:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\layout-sw800dp\\fr_audio_detail.xml"
+    },
+    {
+        "merged": "E:\\projects\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp-v13\\museum_selection.xml",
+        "source": "E:\\projects\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\layout-sw800dp\\museum_selection.xml"
+    },
+    {
+        "merged": "E:\\projects\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp-v13\\fr_list_audio_guide.xml",
+        "source": "E:\\projects\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\layout-sw800dp\\fr_list_audio_guide.xml"
+    },
+    {
+        "merged": "E:\\projects\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp-v13\\fr_audio_detail.xml",
+        "source": "E:\\projects\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\layout-sw800dp\\fr_audio_detail.xml"
+    },
+    {
+        "merged": "E:\\projects\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp-v13\\ac_main_audio.xml",
+        "source": "E:\\projects\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\layout-sw800dp\\ac_main_audio.xml"
+    },
+    {
+        "merged": "E:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp-v13\\ac_main_audio.xml",
+        "source": "E:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\layout-sw800dp\\ac_main_audio.xml"
+    }
+]

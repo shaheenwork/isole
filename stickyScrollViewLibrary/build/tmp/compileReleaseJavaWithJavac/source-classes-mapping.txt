@@ -1,0 +1,5 @@
+com/emilsjolander/components/StickyScrollViewItems/StickyScrollView.java
+ com.emilsjolander.components.StickyScrollViewItems.StickyScrollView
+ com.emilsjolander.components.StickyScrollViewItems.StickyScrollView$1
+com/emilsjolander/components/StickyScrollViewItems/BuildConfig.java
+ com.emilsjolander.components.StickyScrollViewItems.BuildConfig

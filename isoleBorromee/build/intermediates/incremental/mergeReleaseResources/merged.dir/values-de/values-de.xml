@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="languages">
+        <item>English</item>
+        <item>Italiano</item>
+    </string-array>
+    <plurals name="enqueued">
+		<item quantity="one">1 song enqueued.</item>
+		<item quantity="other">%d songs enqueued.</item>
+	</plurals>
+    <plurals name="playing">
+		<item quantity="one">1 song playing.</item>
+		<item quantity="other">%d songs playing.</item>
+	</plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alle ansehen"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"Aus"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"An"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Strg +"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Löschen"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Eingabetaste"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Funktionstaste +"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta-Taste +"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Umschalttaste +"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"Leertaste +"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym-Taste +"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menütaste +"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Suchen…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Suchen"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Suchanfrage senden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Freigeben für"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Mit <ns1:g id="APPLICATION_NAME">%s</ns1:g> teilen"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string name="all_in_one">All in one</string>
+    <string name="app_name">Isole Borromee</string>
+    <string name="audio_guide">Audioführer</string>
+    <string name="audio_guide_garden">Guide garden</string>
+    <string name="audio_guide_general">Audioführer general</string>
+    <string name="audio_guide_load_failed">Audioguide ist beschädigt. Bitte redownload, um es zu beheben.</string>
+    <string name="audio_guide_palace">Audioführer\ndes Palastes und Gartens</string>
+    <string name="automatic">Automatisch</string>
+    <string name="buy">Kaufen</string>
+    <string name="buy_all_in_one">Isola Bella Audioguide,\nIsola Madre Audioguide,\nBurg von Angera Audioguide</string>
+    <string name="cancel">Stornieren</string>
+    <string name="clear_app_data">App-Daten löschen</string>
+    <string name="close">Schließen</string>
+    <string name="close_notification">Benachrichtigung schließen</string>
+    <string name="cod_with_dot">Cod.</string>
+    <string name="code">Code</string>
+    <string name="code_audio">Code audio</string>
+    <string name="cover_art">Cover art</string>
+    <string name="credits">Credits</string>
+    <string name="credits_desc"><![CDATA[Audiotour made for<br/><b>S.A.G. srl</b><br/><br/>The contents (texts, photos and audio) that appear inside this App belong to S.A.G. srl and are under copyright registration. Reuse, modification, distribution or commercialization by third parties is therefore not allowed.]]></string>
+    <string name="download">Download</string>
+    <string name="download_all_bought">Möchten Sie jetzt alle gekauften Inhalte herunterladen?</string>
+    <string name="downloading">wird heruntergeladen</string>
+    <string name="downloading_audio_guide">wird heruntergeladen Audioführer</string>
+    <string name="dummy_codice">34567</string>
+    <string name="dummy_description">Lorem Ipsum is simply dummy text of the printing and 
+        typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever 
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but also the 
+        leap into electronic typesetting, remaining essentially unchanged. It was popularised
+        in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+        and more recently with desktop publishing software like Aldus PageMaker including 
+        versions of Lorem Ipsum.</string>
+    <string name="dummy_quatro_camerino">Quatro Camerino</string>
+    <string name="dummy_stanza_arrazi">Stanza Arrazzi (3)</string>
+    <string name="end">Schließen</string>
+    <string name="export">Export</string>
+    <string name="export_failed">Export fehlgeschlagen</string>
+    <string name="hyphen">-</string>
+    <string name="image_desc">Beschreibung</string>
+    <string name="image_title">Titel</string>
+    <string name="image_unavailable">Bild nicht verfügbar</string>
+    <string name="in_queue">in der Warteschlange</string>
+    <string name="infos">Info</string>
+    <string name="installation_failed">Installation fehlgeschlagen</string>
+    <string name="installing">Installieren</string>
+    <string name="installing_audio_guide">Installieren Audioführer</string>
+    <string name="isola_bella">Isola Bella</string>
+    <string name="isola_madre">Isola Madre</string>
+    <string name="isole_bela_desc"><![CDATA[Die Isola Bella im Golf von Borromeo ist ein realer Ort und doch erscheint er uns wie eine Traumwelt. Bevor unsere Blicke von den Barockwerken angezogen werden, zeigt sich uns ein Schauspiel aus Gebäuden und Gärten, die aus dem Wasser emporsteigen und von Bergen gesäumt sind. Das was sich einst als karge Felslandschaft vor uns öffnete, die von nur wenigen Fischern bewohnt war, wurde zwischen dem 17. und 18. Jahrhundert in einen der faszinierendsten Orte Italiens verwandelt. Der Fürstenpalast der Borromeo wurde im nördlichen Teil der Insel errichtet und beherbergt beachtenswerte Ausstattungen und Kunstwerke. Alkoven und Tanzsäle, Gemäldegalerien und Sammlungen von Wandteppichen, Nebenräume und Grotten reihen sich in einer an Überraschungen reichen Route an. Die Besichtigung setzt sich in den italienischen Gärten fort, die noch heute unverändert erhalten sind und aufgrund ihren Gestaltung weltweit als einzigartig gelten: ein Pyramide aus zehn Terrassen, die sich oberhalb des Sees erstrecken und mit Statuen, Obelisken, Springbrunnen, Nymphen, Blumenspalieren und Zitrusbäumen ausgestattet sind. Während der Romantik wurden den bestehen Terrassen neue Pflanzen und Anlagen, neue Blumen und neue Gewächshäuser hinzugefügt. Und nicht zuletzt der wahre König der Gärten: der weiße Pfau des Palastes Borromeo.]]></string>
+    <string name="isole_borromee">Borromäischen\nInseln</string>
+    <string name="isole_madre_desc"><![CDATA[Diese Insel war die erste des Archipels der Borromäischen Inseln, die von der adeligen Mailänder Familie im 16. Jahrhundert besiedelt wurde und aus diesem Grund wurde sie mit dem Namen „Isola Madre” bzw. „Mutterinsel” benannt. Der imposante Palast, der auf die Seeufer von Stresa zeigt, wurde unter der Leitung von Pellegrino Tibaldi, einem im 16. Jahrhundert berühmten Architekten und Maler, der zur Zeit des Kardinals Carlo Borromeo und König Philipp II. von Spanien tätig war, errichtet. Während der Besichtigung des Palastes werden Sie in eine ferne Vergangenheit zurückversetzt, da die Dekorationen, die die Räumlichkeiten schmücken, vorwiegend auf die ersten Jahre des 17. Jahrhunderts datierbar sind. Einst bestanden auch auf dieser Insel italienische Gärten mit Terrassen und zahlreichen Zitrusbäumen. Heute gelten die Grünbereiche der Isola Madre als atemberaubende Beispiele der romantischen englischen Gärten mit dichten Laubwäldern, die sich zu der umliegenden Landschaft hin öffnen und im Frühling und Sommer einzigartige Anblicke bieten. Doch zeichnet sich der Garten der Isola Madre auch durch seine üppige Bevölkerung aus: Unmengen an Ziervögeln leben friedlich und ungestört auf den Wiesen und Lichtungen des Parks.]]></string>
+    <string name="item_already_purchased">Artikel bereits gekauft, bitte aus den Einstellungen wiederherstellen</string>
+    <string name="language">Sprache</string>
+    <string name="map_del_palazzo">Karte des Gebäudes</string>
+    <string name="msg_buy_ag_isole_bella">Kaufen Sie den kompletten Audioführer von Isola Bella</string>
+    <string name="msg_buy_ag_isole_madre">Kaufen Sie den kompletten Audioführer von Isola Madre</string>
+    <string name="msg_buy_all">You can buy all the contents of the application for a special price</string>
+    <string name="msg_download_gallery">Sie können kostenlose Galerie herunterladen</string>
+    <string name="msg_inapp_error_purchasing">Fehler:</string>
+    <string name="msg_inapp_user_cancelled">Der Kauf wurde vom Benutzer abgebrochen.</string>
+    <string name="msg_inapp_verification_failed">Fehler beim Kauf. Authentizitätsprüfung fehlgeschlagen.</string>
+    <string name="msg_title_palazzo">Audioführer des Palastes</string>
+    <string name="next_song">Next song</string>
+    <string name="notification_title_paused">%s (Paused)</string>
+    <string name="nr_audio">Nr. audio</string>
+    <string name="pause">Pause</string>
+    <string name="pause_audio">Pause Audio</string>
+    <string name="photo_gallery">Fotogalerie</string>
+    <string name="play_audio">Play Audio</string>
+    <string name="play_off">Play: OFF</string>
+    <string name="play_on">Play: ON</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="position">Position:</string>
+    <string name="preparing">Vorbereitung</string>
+    <string name="queueing">Warteschlange</string>
+    <string name="restore_failed">Wiederherstellung fehlgeschlagen, versuchen Sie es später erneut</string>
+    <string name="restore_no_prev_purchase">Keine vorherigen Käufe gefunden, um wiederherzustellen</string>
+    <string name="restore_successful">Wiederherstellung erfolgreich</string>
+    <string name="restore_your_purchase">Setzen Sie Ihren Erwerb zurück</string>
+    <string name="restoring_your_purchase">Wiederherstellung Ihrer Einkäufe</string>
+    <string name="rocca_d_angera">Burg von Angera</string>
+    <string name="rocca_d_angera_desc"><![CDATA[Die Burg von Angera stellt eine perfekt und rundum gut erhaltene mittelalterliche Festung dar. Sie wurde von der Familie der Visconti in einer strategisch günstigen Lage auf dem Felsen, der den südlichen Teil des Lago Maggiore größtenteils dominiert, errichtet. Die Familie Visconti ließ die Innenbereiche mit einem einzigartigen Freskenzyklus dekorieren, der von dem entscheidenden Sieg der Visconti über die rivalisierende Familie Torriani im Jahr 1277 erzählt, durch den sie die Herrschaft über die Stadt Mailand errang. Im 15. Jahrhundert  ging die Burg von Angera in den Besitz der Familie Borromeo über, die sie bis in unsere heutige Zeit unverändert und in perfektem Zustand erhielt und die Innenbereiche mit kostbaren Einrichtungsgegenständen und eindrucksvollen Sammlungen, wie die reiche Sammlung von Puppen und Spielzeug, bereicherte. Ein mittelalterlicher Garten wurde erst in jüngster Zeit rund um die Burg angelegt. An einem abgelegten und bezaubernden Ort, der die Ufer naturgetreu nachbildet, dienen die mittelalterlichen Gärten hauptsächlich dem Anbau. Aus diesem Grund wurden die „verzieri” (Gemüsegärten) mit Obst und Gemüse, Gärten mit Heilkräutern und Blumen (nur den Bewohnern des Schlosses zugänglich) angelegt. Am Ende dieses Bereichs erstrecken sich die Haine, die die Gärten von den Wiesen, auf denen die Nutztiere weiden, trennen.]]></string>
+    <string name="room">Zimmer</string>
+    <string name="search_by_code">Suche nach Namen oder Code</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Suchen"</string>
+    <string name="select_fav_language">Willkommen im Audioführer der Borromäischen Inseln.\nWählen Sie eine Sprache.</string>
+    <string name="select_language">Willkommen im Audioführer der Borromäischen Inseln</string>
+    <string name="settings">Einstellungen</string>
+    <string name="special_offer">Special offer</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="terms_of_service">Laufzeit der Dienstleistungen</string>
+    <string name="version">Version</string>
+    <string name="welcome">Willkommen im Audioführer der Borromäischen Inseln</string>
+    <string name="where_is_it">Wo ist es</string>
+</resources>

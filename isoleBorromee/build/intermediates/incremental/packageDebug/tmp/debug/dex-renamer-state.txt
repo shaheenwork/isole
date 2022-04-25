@@ -1,0 +1,4 @@
+#Mon Apr 25 17:01:02 IST 2022
+base.0=D\:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\workspacesnew\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\res\\merged\\release\\menu\\activity_pane_layout_example.xml",
+        "source": "E:\\workspacesnew\\IsoleBorromee\\slidingPaneLibrary\\src\\main\\res\\menu\\activity_pane_layout_example.xml"
+    },
+    {
+        "merged": "E:\\workspacesnew\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "E:\\workspacesnew\\IsoleBorromee\\slidingPaneLibrary\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\workspacesnew\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\res\\merged\\release\\menu\\global.xml",
+        "source": "E:\\workspacesnew\\IsoleBorromee\\slidingPaneLibrary\\src\\main\\res\\menu\\global.xml"
+    },
+    {
+        "merged": "E:\\projects\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\res\\merged\\release\\menu\\global.xml",
+        "source": "E:\\projects\\IsoleBorromee\\slidingPaneLibrary\\src\\main\\res\\menu\\global.xml"
+    },
+    {
+        "merged": "E:\\projects\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "E:\\projects\\IsoleBorromee\\slidingPaneLibrary\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\projects\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\res\\merged\\release\\menu\\activity_pane_layout_example.xml",
+        "source": "E:\\projects\\IsoleBorromee\\slidingPaneLibrary\\src\\main\\res\\menu\\activity_pane_layout_example.xml"
+    }
+]

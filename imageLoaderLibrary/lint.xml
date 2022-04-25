@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="DefaultLocale" severity="ignore" />
+    <issue id="IconDensities" severity="ignore" />
+    <issue id="IconMissingDensityFolder" severity="ignore" />
+    <issue id="Instantiatable" severity="ignore" />
+    <issue id="SdCardPath" severity="ignore" />
+    <issue id="UnusedResources" severity="ignore" />
+    <issue id="UseSparseArrays" severity="ignore" />
+</lint>

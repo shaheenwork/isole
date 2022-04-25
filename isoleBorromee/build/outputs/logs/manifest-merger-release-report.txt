@@ -1,0 +1,355 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:2:1-124:12
+INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:2:1-124:12
+MERGED from [:libraryProgressWheel] D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-28:12
+MERGED from [:slidingPaneLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\slidingPaneLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-18:12
+MERGED from [:slidingTabPanelLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\slidingTabPanelLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [:imageMapLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\imageMapLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-12:12
+MERGED from [:imageLoaderLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\imageLoaderLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [:stickyScrollViewLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\stickyScrollViewLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\818c6e39ca3cc56f741085298f643fbe\appcompat-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\2ab9f694e5d3af64949140461960b743\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\01a78cf554e6c4441512374e19a94070\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\61bb6f920e68a1f2609cec17a2f1222a\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\cafdcb56cd064bbf622135f61bb6ed84\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\7cbfbaaa39ecb82620bffe2588206993\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\cf1b3659fa18f99466ae4aaa764a5b38\vectordrawable-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\c82a9eca41089f3a6896ea573cfccd87\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\fb1a0924cbad762d0f581f6d187fd952\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\c6e778544c3daa9334b7e39d7723ab0b\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\390fba7780f75f3935d6793c0cae2473\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\868c4b7ee3ddc9bf7e171c26bc1832bd\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\092a3e2c794826840c7bdfa866a4ff56\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\a47101ded039236e94007b8beb4d0848\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\02762fa41652d52d9fee565fa6e98d0d\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\c523d7266f112830516f47157eeaf9c5\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\9902be9b1aac21e364b85501bd7541d0\core-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\ab0971dc0418d312ad5e60792163f1ea\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\5a0ff6eba4a0ab8a5ff2db13b6b96742\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\86c84a825357d05c2f724246490a8df6\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\ca96f6182f57510854af9a656e5790c4\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\b33061385d67b982bb885113b832fc1e\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\01df92b7300672a5ff8664dc3764ee51\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\d905bd4d37713ddb7e2a558cb611c465\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\5586921ae4cea2e46fb71f72d59033a3\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\0f9f9612216e1658ded37de1f7493c8e\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\db70915db5482881b82db5efafd295dc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\e8a9ba95fcf0cc98ab87a4d17d4050b7\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:2:1-124:12
+	package
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:16:22-72
+uses-permission#com.android.vending.BILLING
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:22:22-64
+application
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:24:5-122:19
+MERGED from [:libraryProgressWheel] D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-26:19
+MERGED from [:libraryProgressWheel] D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-26:19
+MERGED from [:slidingPaneLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\slidingPaneLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-16:19
+MERGED from [:slidingPaneLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\slidingPaneLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-16:19
+MERGED from [:slidingTabPanelLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\slidingTabPanelLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-20
+MERGED from [:slidingTabPanelLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\slidingTabPanelLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-20
+MERGED from [:imageMapLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\imageMapLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-10:19
+MERGED from [:imageMapLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\imageMapLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-10:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\9902be9b1aac21e364b85501bd7541d0\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\9902be9b1aac21e364b85501bd7541d0\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\ab0971dc0418d312ad5e60792163f1ea\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\ab0971dc0418d312ad5e60792163f1ea\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\9902be9b1aac21e364b85501bd7541d0\core-1.0.0\AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:28:9-41
+	android:largeHeap
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:29:9-33
+	android:icon
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:27:9-45
+	android:allowBackup
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:26:9-35
+	android:theme
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:30:9-40
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:25:9-57
+activity#com.ezenit.isoleborromee.ActivitySplashScreen
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:32:9-41:20
+	android:launchMode
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:34:13-44
+	android:exported
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:35:13-36
+	android:theme
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:36:13-80
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:33:13-73
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:39:27-74
+activity#com.ezenit.isoleborromee.ActivityAudioPlayer
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:43:9-47:83
+	android:label
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:45:13-45
+	android:launchMode
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:46:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:47:13-71
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:44:13-72
+activity#com.ezenit.isoleborromee.ActivityLanguageSelection
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:49:9-52:74
+	android:windowSoftInputMode
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:52:13-71
+	android:theme
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:51:13-55
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:50:13-78
+activity#com.ezenit.isoleborromee.ActivityFSAudioGallery
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:54:9-57:74
+	android:windowSoftInputMode
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:57:13-71
+	android:theme
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:56:13-69
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:55:13-75
+activity#com.ezenit.isoleborromee.ActivityPhotoGallery
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:59:9-62:74
+	android:windowSoftInputMode
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:62:13-71
+	android:theme
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:61:13-69
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:60:13-73
+activity#com.ezenit.isoleborromee.ActivityMapContainer
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:64:9-66:83
+	android:windowSoftInputMode
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:66:13-71
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:65:13-73
+activity#com.ezenit.isoleborromee.ActivitySettings
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:68:9-71:83
+	android:windowSoftInputMode
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:71:13-71
+	android:theme
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:70:13-55
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:69:13-69
+receiver#com.ezenit.isoleborromee.service.AppIsoleReceiver
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:73:9-88:20
+	android:exported
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:75:13-37
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:74:13-77
+intent-filter#action:name:com.ezenit.download.services.DownloadManager.ACTION_DOWNLOAD_STATUS+action:name:com.ezenit.download.services.IDownloadService+action:name:com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_CALCULATE_ZIP_SIZE+action:name:com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_DOWNLOADHELPER_RESPONSE+action:name:com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_DOWNLOAD_ZIP+action:name:com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_EXTRACT_ZIP+action:name:com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_ISOLE_INSTALLATION+action:name:com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_PARSE_XML+category:name:android.intent.category.DEFAULT
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:76:13-87:29
+action#com.ezenit.download.services.DownloadManager.ACTION_DOWNLOAD_STATUS
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:77:17-110
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:77:25-107
+action#com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_DOWNLOADHELPER_RESPONSE
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:78:17-122
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:78:25-119
+action#com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_PARSE_XML
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:79:17-108
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:79:25-105
+action#com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_EXTRACT_ZIP
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:80:17-110
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:80:25-107
+action#com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_DOWNLOAD_ZIP
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:81:17-111
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:81:25-108
+action#com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_CALCULATE_ZIP_SIZE
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:82:17-117
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:82:25-114
+action#com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_ISOLE_INSTALLATION
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:83:17-117
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:83:25-114
+action#com.ezenit.download.services.IDownloadService
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:84:17-88
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:84:25-85
+category#android.intent.category.DEFAULT
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:86:27-73
+service#com.ezenit.isoleborromee.service.AppIsoleReceiver$DownloadHelperService
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:91:9-93:48
+	android:exported
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:93:13-37
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:92:13-99
+service#com.ezenit.download.services.DownloadService
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:95:9-97:48
+	android:exported
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:97:13-37
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:96:13-72
+receiver#com.ezenit.mediaplayer.MediaButtonReceiver
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:99:9-104:20
+	android:exported
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:100:13-36
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:99:19-76
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:101:13-103:29
+	android:priority
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:101:28-50
+action#android.intent.action.MEDIA_BUTTON
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:102:17-77
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:102:25-74
+service#com.ezenit.mediaplayer.PlaybackService
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:106:9-117:19
+	android:exported
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:108:13-37
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:107:13-66
+intent-filter#action:name:com.ezenit.mediaplayer.action.NEXT_SONG+action:name:com.ezenit.mediaplayer.action.PAUSE+action:name:com.ezenit.mediaplayer.action.PLAY+action:name:com.ezenit.mediaplayer.action.PREVIOUS_SONG+action:name:com.ezenit.mediaplayer.action.TOGGLE_PLAYBACK
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:109:13-115:29
+action#com.ezenit.mediaplayer.action.PLAY
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:110:17-77
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:110:25-74
+action#com.ezenit.mediaplayer.action.PAUSE
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:111:17-78
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:111:25-75
+action#com.ezenit.mediaplayer.action.TOGGLE_PLAYBACK
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:112:17-88
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:112:25-85
+action#com.ezenit.mediaplayer.action.NEXT_SONG
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:113:17-82
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:113:25-79
+action#com.ezenit.mediaplayer.action.PREVIOUS_SONG
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:114:17-86
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:114:25-83
+meta-data#com.crashlytics.ApiKey
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:118:9-120:72
+	android:value
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:120:13-69
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:119:13-50
+activity#com.ezenit.test.AndroidDatabaseManager
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:121:9-75
+	android:name
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:121:19-72
+uses-sdk
+INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml
+INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml
+MERGED from [:libraryProgressWheel] D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\build\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:libraryProgressWheel] D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\build\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:slidingPaneLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\slidingPaneLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:slidingPaneLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\slidingPaneLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:slidingTabPanelLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\slidingTabPanelLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:slidingTabPanelLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\slidingTabPanelLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:imageMapLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\imageMapLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:imageMapLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\imageMapLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:imageLoaderLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\imageLoaderLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:imageLoaderLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\imageLoaderLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:stickyScrollViewLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\stickyScrollViewLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:stickyScrollViewLibrary] D:\Android Projects\E TEAM\work\IsoleBorromee\stickyScrollViewLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\818c6e39ca3cc56f741085298f643fbe\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\818c6e39ca3cc56f741085298f643fbe\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\2ab9f694e5d3af64949140461960b743\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\2ab9f694e5d3af64949140461960b743\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\01a78cf554e6c4441512374e19a94070\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\01a78cf554e6c4441512374e19a94070\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\61bb6f920e68a1f2609cec17a2f1222a\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\61bb6f920e68a1f2609cec17a2f1222a\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\cafdcb56cd064bbf622135f61bb6ed84\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\cafdcb56cd064bbf622135f61bb6ed84\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\7cbfbaaa39ecb82620bffe2588206993\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\7cbfbaaa39ecb82620bffe2588206993\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\cf1b3659fa18f99466ae4aaa764a5b38\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\cf1b3659fa18f99466ae4aaa764a5b38\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\c82a9eca41089f3a6896ea573cfccd87\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\c82a9eca41089f3a6896ea573cfccd87\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\fb1a0924cbad762d0f581f6d187fd952\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\fb1a0924cbad762d0f581f6d187fd952\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\c6e778544c3daa9334b7e39d7723ab0b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\c6e778544c3daa9334b7e39d7723ab0b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\390fba7780f75f3935d6793c0cae2473\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\390fba7780f75f3935d6793c0cae2473\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\868c4b7ee3ddc9bf7e171c26bc1832bd\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\868c4b7ee3ddc9bf7e171c26bc1832bd\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\092a3e2c794826840c7bdfa866a4ff56\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\092a3e2c794826840c7bdfa866a4ff56\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\a47101ded039236e94007b8beb4d0848\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\a47101ded039236e94007b8beb4d0848\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\02762fa41652d52d9fee565fa6e98d0d\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\02762fa41652d52d9fee565fa6e98d0d\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\c523d7266f112830516f47157eeaf9c5\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\c523d7266f112830516f47157eeaf9c5\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\9902be9b1aac21e364b85501bd7541d0\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\9902be9b1aac21e364b85501bd7541d0\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\ab0971dc0418d312ad5e60792163f1ea\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\ab0971dc0418d312ad5e60792163f1ea\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\5a0ff6eba4a0ab8a5ff2db13b6b96742\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\5a0ff6eba4a0ab8a5ff2db13b6b96742\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\86c84a825357d05c2f724246490a8df6\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\86c84a825357d05c2f724246490a8df6\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\ca96f6182f57510854af9a656e5790c4\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\ca96f6182f57510854af9a656e5790c4\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\b33061385d67b982bb885113b832fc1e\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\b33061385d67b982bb885113b832fc1e\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\01df92b7300672a5ff8664dc3764ee51\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\01df92b7300672a5ff8664dc3764ee51\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\d905bd4d37713ddb7e2a558cb611c465\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\d905bd4d37713ddb7e2a558cb611c465\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\5586921ae4cea2e46fb71f72d59033a3\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\5586921ae4cea2e46fb71f72d59033a3\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\0f9f9612216e1658ded37de1f7493c8e\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\0f9f9612216e1658ded37de1f7493c8e\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\db70915db5482881b82db5efafd295dc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\db70915db5482881b82db5efafd295dc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\e8a9ba95fcf0cc98ab87a4d17d4050b7\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\e8a9ba95fcf0cc98ab87a4d17d4050b7\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml
+INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml

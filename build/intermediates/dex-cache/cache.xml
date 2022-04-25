@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\workspacesnew\IsoleBorromee\imageMapLibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="786cd94b8299e8cf97e8a313c68e7e699340c4fa">
+        <dex dex="E:\workspacesnew\IsoleBorromee\isoleBorromee\build\intermediates\pre-dexed\debug\classes_478263859a6cc1b36aefc33f1d84a06751ef57f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bibin.b\.android\build-cache\e9162cadb5c135fe2cba2aac1e8b291dec98e7e3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="E:\workspacesnew\IsoleBorromee\isoleBorromee\build\intermediates\pre-dexed\debug\classes_0b9f585dbf23adac6630d06dec1198ae6977ac7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\workspacesnew\IsoleBorromee\libraryProgressWheel\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f917c0a5bb8478148e0f2bc3c820979d8989fe91">
+        <dex dex="E:\workspacesnew\IsoleBorromee\isoleBorromee\build\intermediates\pre-dexed\debug\classes_a164bd1658847a559e23ec9d77aafe33633da2fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Eclipse\android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="E:\workspacesnew\IsoleBorromee\isoleBorromee\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_fdc44b05ffa0130396be281c9ce532656d1eed22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\workspacesnew\IsoleBorromee\slidingTabPanelLibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="01423bc7c5a645091e7963a46f7ecf26fd673029">
+        <dex dex="E:\workspacesnew\IsoleBorromee\isoleBorromee\build\intermediates\pre-dexed\debug\classes_52d054a7efbe7ae812b21a678a0e3e3ad2c5cb50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\workspacesnew\IsoleBorromee\isoleBorromee\libs\crashlytics.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e821eafa1bf489a26bdb71f95078c26785b37a1">
+        <dex dex="E:\workspacesnew\IsoleBorromee\isoleBorromee\build\intermediates\pre-dexed\debug\crashlytics_948dae2c1f5d7a845836b0d58fd8b892e9594855.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\workspacesnew\IsoleBorromee\slidingPaneLibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b2ae0ae1f33fa46f75baed1cb3740f7be5c8f84d">
+        <dex dex="E:\workspacesnew\IsoleBorromee\isoleBorromee\build\intermediates\pre-dexed\debug\classes_d13ebe2b7de76a10cb03e91bc04c20d9c573914f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\workspacesnew\IsoleBorromee\imageLoaderLibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f3057ff6483e10466ba448168d655bec4f33c90">
+        <dex dex="E:\workspacesnew\IsoleBorromee\isoleBorromee\build\intermediates\pre-dexed\debug\classes_c8cd8aa0da98ec1f666c1bef2fce710121a08e1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bibin.b\.android\build-cache\3656be1954c66c045c0ba6ed23188cf1e0f9f4e6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="E:\workspacesnew\IsoleBorromee\isoleBorromee\build\intermediates\pre-dexed\debug\classes_e57cdfc6bb208d5d46cdf8ef95ac778ac67271f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\workspacesnew\IsoleBorromee\stickyScrollViewLibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7f5b4aac009ea768558da6a7576c609c326e0c83">
+        <dex dex="E:\workspacesnew\IsoleBorromee\isoleBorromee\build\intermediates\pre-dexed\debug\classes_5284497d3f7ba3578b012be15191cd92354f8a0f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bibin.b\.android\build-cache\e9162cadb5c135fe2cba2aac1e8b291dec98e7e3\output\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="E:\workspacesnew\IsoleBorromee\isoleBorromee\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_634076def2f42b04fbc66ba4c4e56297d9760b60.jar" />
+    </item>
+
+</items>

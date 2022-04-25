@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Isole Borromee</string>
+    <string name="settings">Impostazioni</string>
+    
+    <string name="pause">Pausa</string>
+    <string name="cancel">Annulla</string>
+    
+    <string name="queueing">In coda</string>
+    
+    <!-- Image Gallery -->
+     <string name="image_title">Titolo</string>
+     <string name="image_desc">Descrizione</string>
+
+    <!-- Start Page -->
+    <string name="select_language">Benvenuto nell’audioguida dell’evento Riflessioni Plastiche.</string>
+     <string name="select_fav_language">Benvenuto nell’audioguida dell’evento Riflessioni Plastiche.\nSeleziona la lingua.</string>
+     <string name="welcome">Benvenuti nell\'audioguida dell’evento Riflessioni Plastiche.</string>
+    
+    <string name="isole_borromee">Riflessioni\nPlastiche</string>
+    
+    <string name="isola_bella">Riflessioni Plastiche</string>
+    <string name="isola_madre">Isola Madre</string>
+    <string name="rocca_d_angera">Rocca d\'Angera</string>
+    <string name="all_in_one">Tutto in uno</string>
+    
+    <string name="end">Fine</string>
+    <string name="map_del_palazzo">Mappa dell’evento</string>
+    
+    <string name="audio_guide_palace">Audio guida</string>
+    <string name="audio_guide_general">Audioguida generale</string>
+    <string name="audio_guide_garden">Guida dell’evento</string>
+    
+    <string name="audio_guide">Audio guida</string>
+    
+    <string name="search_by_code">Cerca per nome o per codice</string>
+    
+    <string name="play_audio">Riproduci audio</string>
+    <string name="pause_audio">Pausa audio</string>
+    
+    <string name="code_audio">Codice audio</string>
+    <string name="cod_with_dot">Cod.</string>
+    <string name="position">Posizione:</string>
+    <string name="hyphen">-</string>
+    
+    <string name="where_is_it">Dove si trova</string>
+    
+    <string name="item_already_purchased">Elemento già acquistato , si prega di ripristinare da impostazioni</string>    
+    <string name="language">Lingua</string>
+    <string name="restore_your_purchase">Vuoi ripristinare i tuoi acquisti?</string>
+    <string name="infos">Informazioni</string>
+    <string name="restoring_your_purchase">Ripristino tuoi acquisti</string>
+    <string name="restore_successful">Ripristino di successo</string>
+    <string name="restore_failed">Ripristino fallito , riprovare più tardi</string>
+    <string name="restore_no_prev_purchase">Nessun precedente acquisto trovato da ripristinare</string>
+    
+    <string name="version">Versione</string>
+
+    <string name="terms_of_service">Termini del servizio</string>
+    <string name="credits">Credits</string>
+    
+    <string name="download">Scarica</string>
+    <string name="downloading">Scaricare</string>
+    <string name="installing">Installazione</string>
+    
+    <string name="preparing">Preparazione</string>
+    
+    <string name="downloading_audio_guide">Scarica audio guida</string>
+     <string name="installing_audio_guide">Installazione audio guida</string>
+     
+     <string name="installation_failed">Installazione non riuscita</string>
+     
+     <string name="in_queue">In coda</string>
+  	
+     <string name="close">Chiudi</string>
+     
+     <string name="buy_all_in_one">Isola Bella Audioguide,\nIsola Madre Audioguide,\nRocca d’Angera Audioguide</string>
+     
+     <string name="download_all_bought">Vuoi scaricare ora tutti i contenuti acquistati?</string>
+    
+    <string-array name="languages">
+        <item >Inglese</item>
+        <item >Italiano</item>
+    </string-array>
+    
+    <string name="automatic">Automatico</string>
+    <string name="play_on">Play: ON</string>
+    <string name="play_off">Play: OFF</string>
+        
+    <string name="code">Codice</string>
+    <string name="nr_audio">Nr. audio</string>
+    <!-- Dummy Data -->
+    
+    <string name="dummy_quatro_camerino">Quatro Camerino</string>
+    <string name="dummy_codice">34567</string>
+    <string name="dummy_stanza_arrazi">Stanza Arrazzi (3)</string>
+    
+    <string name="dummy_description">Lorem Ipsum is simply dummy text of the printing and 
+        typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever 
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but also the 
+        leap into electronic typesetting, remaining essentially unchanged. It was popularised
+        in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+        and more recently with desktop publishing software like Aldus PageMaker including 
+        versions of Lorem Ipsum.</string>
+        
+  
+    <string name="cover_art">Copertina</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="next_song">Canzone successiva</string>
+    <string name="close_notification">Chiudi notifica</string>
+	
+	<string name="notification_title_paused">%s ( Pausa )</string>
+	
+		
+    <string name="isole_bela_desc"><![CDATA[L’Isola Bella del Golfo Borromeo è un luogo fisico ma assomiglia a un sogno. Dinnanzi ai nostri occhi si apre una grandiosa visione barocca, uno spettacolare “teatro” di edifici e giardini affiorante dall’acqua e circondato dai monti. Quello che era un tempo un semplice sperone di roccia abitato da pescatori venne trasformato tra Seicento e Settecento in uno dei “luoghi di delizia” più celebri d’Italia. Il principesco Palazzo dei Borromeo occupa la parte settentrionale dell’Isola e racchiude al suo interno arredi e opere d’arte di eccezionale importanza. Alcove e sale da ballo, gallerie di quadri e raccolte di arazzi, camerini e grotte si alternano in un entusiasmante percorso fitto di emozionanti sorprese.<br/>La visita prosegue nei Giardini all’Italiana, rimasti intatti ed unici al mondo per la loro singolarissima forma: una piramide di dieci terrazze che si erge sul lago, popolata di statue, obelischi, fontane, ninfei, spalliere di fiori e di agrumi. A questo insieme si aggiunsero in età romantica nuove piante e nuove essenze, nuovi fiori e nuove serre. E infine arrivarono loro, i veri padroni dei giardini: i pavoni bianchi dei Borromeo.]]></string>
+	<string name="isole_madre_desc"><![CDATA[Questa fu la prima delle Isole dell’Arcipelago Borromeo a essere abitata dalla nobile famiglia milanese nel XVI secolo, e da questo primato deriva il  nome di “Isola Madre”. Il severo palazzo verso la sponda di Stresa venne costruito sotto la direzione di Pellegrino Tibaldi, architetto e pittore assai celebre nel Cinquecento, attivo per il cardinale Carlo Borromeo e il re Filippo II di Spagna. Visitare il palazzo è come fare un tuffo nel passato perché gli arredi che arricchiscono le sale risalgono in prevalenza ai primi anni del Seicento.<br/>Un tempo esistevano anche i coevi giardini all’italiana, terrazzati e ricchi di alberi da frutta. Oggi tutto il verde dell’Isola Madre è un esempio mirabile di giardino romantico all’inglese, con masse di verde che si aprono all’improvviso sul paesaggio circostante e che offrono nelle stagioni primaverili ed estive spettacolari fioriture. Ma il giardino dell’Isola Madre pullula anche di “vita”: innumerevoli uccelli ornamentali  soggiornano sereni e indisturbati tra i prati e le radure del parco.]]></string>
+	<string name="rocca_d_angera_desc"><![CDATA[La Rocca di Angera è una fortezza medievale perfettamente e integralmente conservata. Venne eretta dalla famiglia dei Visconti in un punto spettacolare e strategico sopra una rupe che domina la parte meridionale del Lago Maggiore. I Visconti vi fecero dipingere al suo interno un ciclo di affreschi importantissimo, nel quale si narra la decisiva vittoria dei Visconti sulla rivale famiglia dei Torriani nel 1277, che portò la stirpe viscontea al dominio della città di Milano.<br/>Nel XV secolo la Rocca di Angera passò alla famiglia Borromeo che la conservò intatta e immutata fino ai nostri giorni, arricchendola al suo interno di arredi di pregio e di singolari collezioni, come la ricchissima raccolta di bambole e giocattoli storici.<br/>Attorno alla Rocca è stato recentemente ricostruito il Giardino Medievale.  Un luogo apparato e incantato che ripropone fedelmente le forme e gli usi dei giardini nel Medioevo, che erano soprattutto dei luoghi di produzione. Per questo ci imbattiamo nei “verzieri” delle verdure e nei frutteti, nel giardino delle erbe medicinali e in quello dei fiori (riservato ai castellani). Per arrivare infine ai “boschetti”, che separavano il giardino dai prati dove pascolava tranquillo il bestiame.]]></string>
+
+	<string name="photo_gallery">Galleria Fotografica</string>
+	
+	<string name="image_unavailable">Immagine non disponibile</string>
+	
+	<string name="buy">Acquista</string>
+	
+	<string name="special_offer">Offerta Speciale</string>
+	
+	<string name="msg_title_palazzo">Audio guida dell’evento</string>
+	<string name="msg_buy_ag_isole_bella">Acquista l\'audioguida completa dell\'Isola Bella</string>
+	<string name="msg_buy_ag_isole_madre">Acquista l\'audioguida completa dell\'Isola Madre</string>
+
+	<string name="msg_buy_all">E\' possibile acquistare tutte le guide ad un prezzo speciale</string>
+	
+	<string name="msg_download_gallery">E\' possibile scaricare gratuitamente la galleria</string>
+	
+	<string name="room">Posizione</string>
+    
+    <string name="audio_guide_load_failed">Audio guida danneggiata. Si prega di scaricarla nuovamente per risolvere il problema.</string>
+	
+     <string name="credits_desc"><![CDATA[Audioguida interattiva realizzata per<br/><b>S.A.G. srl</b><br/><br/>Progettazione e sviluppo<br/><b>Gruppo Zenit</b><br/><br/>Tutti i contenuti (testi, foto, audio) presenti all\'interno dell’app sono proprietà di S.A.G. srl e sono protetti dalla normativa sul diritto d\'autore, non potranno quindi essere pubblicati, riscritti, distribuiti, commercializzati. ]]></string>
+
+	<!-- Inapp errors -->
+	<string name="msg_inapp_verification_failed">Errore, verifica di autenticità non riuscita .</string>
+	<string name="msg_inapp_error_purchasing"></string>
+	<string name="msg_inapp_user_cancelled">L\'acquisto è stato annullato dall\'utente</string>
+</resources>

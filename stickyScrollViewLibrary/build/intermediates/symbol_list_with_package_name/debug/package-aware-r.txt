@@ -1,0 +1,4 @@
+com.emilsjolander.components.StickyScrollViewItems
+attr stuckShadowDrawable
+attr stuckShadowHeight
+styleable StickyScrollView stuckShadowDrawable stuckShadowHeight

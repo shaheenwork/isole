@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="languages">
+        <item>Inglese</item>
+        <item>Italiano</item>
+    </string-array>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Vai alla home page"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Vai in alto"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Altre opzioni"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fine"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Visualizza tutte"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Scegli un\'applicazione"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"ALT +"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"CTRL +"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"CANC"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"INVIO"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"FUNZIONE +"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"META +"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"MAIUSC +"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"barra spaziatrice"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"SYM +"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"MENU +"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Cerca…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Cancella query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Query di ricerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Invia query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ricerca vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Condividi tramite <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Comprimi"</string>
+    <string name="all_in_one">Tutto in uno</string>
+    <string name="app_name">Isole Borromee</string>
+    <string name="audio_guide">Audio guida</string>
+    <string name="audio_guide_garden">Guida dell’evento</string>
+    <string name="audio_guide_general">Audioguida generale</string>
+    <string name="audio_guide_load_failed">Audio guida danneggiata. Si prega di scaricarla nuovamente per risolvere il problema.</string>
+    <string name="audio_guide_palace">Audio guida</string>
+    <string name="automatic">Automatico</string>
+    <string name="buy">Acquista</string>
+    <string name="buy_all_in_one">Isola Bella Audioguide,\nIsola Madre Audioguide,\nRocca d’Angera Audioguide</string>
+    <string name="cancel">Annulla</string>
+    <string name="close">Chiudi</string>
+    <string name="close_notification">Chiudi notifica</string>
+    <string name="cod_with_dot">Cod.</string>
+    <string name="code">Codice</string>
+    <string name="code_audio">Codice audio</string>
+    <string name="cover_art">Copertina</string>
+    <string name="credits">Credits</string>
+    <string name="credits_desc"><![CDATA[Audioguida interattiva realizzata per<br/><b>S.A.G. srl</b><br/><br/>Progettazione e sviluppo<br/><b>Gruppo Zenit</b><br/><br/>Tutti i contenuti (testi, foto, audio) presenti all\'interno dell’app sono proprietà di S.A.G. srl e sono protetti dalla normativa sul diritto d\'autore, non potranno quindi essere pubblicati, riscritti, distribuiti, commercializzati. ]]></string>
+    <string name="download">Scarica</string>
+    <string name="download_all_bought">Vuoi scaricare ora tutti i contenuti acquistati?</string>
+    <string name="downloading">Scaricare</string>
+    <string name="downloading_audio_guide">Scarica audio guida</string>
+    <string name="dummy_codice">34567</string>
+    <string name="dummy_description">Lorem Ipsum is simply dummy text of the printing and 
+        typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever 
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but also the 
+        leap into electronic typesetting, remaining essentially unchanged. It was popularised
+        in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+        and more recently with desktop publishing software like Aldus PageMaker including 
+        versions of Lorem Ipsum.</string>
+    <string name="dummy_quatro_camerino">Quatro Camerino</string>
+    <string name="dummy_stanza_arrazi">Stanza Arrazzi (3)</string>
+    <string name="end">Fine</string>
+    <string name="hyphen">-</string>
+    <string name="image_desc">Descrizione</string>
+    <string name="image_title">Titolo</string>
+    <string name="image_unavailable">Immagine non disponibile</string>
+    <string name="in_queue">In coda</string>
+    <string name="infos">Informazioni</string>
+    <string name="installation_failed">Installazione non riuscita</string>
+    <string name="installing">Installazione</string>
+    <string name="installing_audio_guide">Installazione audio guida</string>
+    <string name="isola_bella">Riflessioni Plastiche</string>
+    <string name="isola_madre">Isola Madre</string>
+    <string name="isole_bela_desc"><![CDATA[L’Isola Bella del Golfo Borromeo è un luogo fisico ma assomiglia a un sogno. Dinnanzi ai nostri occhi si apre una grandiosa visione barocca, uno spettacolare “teatro” di edifici e giardini affiorante dall’acqua e circondato dai monti. Quello che era un tempo un semplice sperone di roccia abitato da pescatori venne trasformato tra Seicento e Settecento in uno dei “luoghi di delizia” più celebri d’Italia. Il principesco Palazzo dei Borromeo occupa la parte settentrionale dell’Isola e racchiude al suo interno arredi e opere d’arte di eccezionale importanza. Alcove e sale da ballo, gallerie di quadri e raccolte di arazzi, camerini e grotte si alternano in un entusiasmante percorso fitto di emozionanti sorprese.<br/>La visita prosegue nei Giardini all’Italiana, rimasti intatti ed unici al mondo per la loro singolarissima forma: una piramide di dieci terrazze che si erge sul lago, popolata di statue, obelischi, fontane, ninfei, spalliere di fiori e di agrumi. A questo insieme si aggiunsero in età romantica nuove piante e nuove essenze, nuovi fiori e nuove serre. E infine arrivarono loro, i veri padroni dei giardini: i pavoni bianchi dei Borromeo.]]></string>
+    <string name="isole_borromee">Riflessioni\nPlastiche</string>
+    <string name="isole_madre_desc"><![CDATA[Questa fu la prima delle Isole dell’Arcipelago Borromeo a essere abitata dalla nobile famiglia milanese nel XVI secolo, e da questo primato deriva il  nome di “Isola Madre”. Il severo palazzo verso la sponda di Stresa venne costruito sotto la direzione di Pellegrino Tibaldi, architetto e pittore assai celebre nel Cinquecento, attivo per il cardinale Carlo Borromeo e il re Filippo II di Spagna. Visitare il palazzo è come fare un tuffo nel passato perché gli arredi che arricchiscono le sale risalgono in prevalenza ai primi anni del Seicento.<br/>Un tempo esistevano anche i coevi giardini all’italiana, terrazzati e ricchi di alberi da frutta. Oggi tutto il verde dell’Isola Madre è un esempio mirabile di giardino romantico all’inglese, con masse di verde che si aprono all’improvviso sul paesaggio circostante e che offrono nelle stagioni primaverili ed estive spettacolari fioriture. Ma il giardino dell’Isola Madre pullula anche di “vita”: innumerevoli uccelli ornamentali  soggiornano sereni e indisturbati tra i prati e le radure del parco.]]></string>
+    <string name="item_already_purchased">Elemento già acquistato , si prega di ripristinare da impostazioni</string>
+    <string name="language">Lingua</string>
+    <string name="map_del_palazzo">Mappa dell’evento</string>
+    <string name="msg_buy_ag_isole_bella">Acquista l\'audioguida completa dell\'Isola Bella</string>
+    <string name="msg_buy_ag_isole_madre">Acquista l\'audioguida completa dell\'Isola Madre</string>
+    <string name="msg_buy_all">E\' possibile acquistare tutte le guide ad un prezzo speciale</string>
+    <string name="msg_download_gallery">E\' possibile scaricare gratuitamente la galleria</string>
+    <string name="msg_inapp_error_purchasing"/>
+    <string name="msg_inapp_user_cancelled">L\'acquisto è stato annullato dall\'utente</string>
+    <string name="msg_inapp_verification_failed">Errore, verifica di autenticità non riuscita .</string>
+    <string name="msg_title_palazzo">Audio guida dell’evento</string>
+    <string name="next_song">Canzone successiva</string>
+    <string name="notification_title_paused">%s ( Pausa )</string>
+    <string name="nr_audio">Nr. audio</string>
+    <string name="pause">Pausa</string>
+    <string name="pause_audio">Pausa audio</string>
+    <string name="photo_gallery">Galleria Fotografica</string>
+    <string name="play_audio">Riproduci audio</string>
+    <string name="play_off">Play: OFF</string>
+    <string name="play_on">Play: ON</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="position">Posizione:</string>
+    <string name="preparing">Preparazione</string>
+    <string name="queueing">In coda</string>
+    <string name="restore_failed">Ripristino fallito , riprovare più tardi</string>
+    <string name="restore_no_prev_purchase">Nessun precedente acquisto trovato da ripristinare</string>
+    <string name="restore_successful">Ripristino di successo</string>
+    <string name="restore_your_purchase">Vuoi ripristinare i tuoi acquisti?</string>
+    <string name="restoring_your_purchase">Ripristino tuoi acquisti</string>
+    <string name="rocca_d_angera">Rocca d\'Angera</string>
+    <string name="rocca_d_angera_desc"><![CDATA[La Rocca di Angera è una fortezza medievale perfettamente e integralmente conservata. Venne eretta dalla famiglia dei Visconti in un punto spettacolare e strategico sopra una rupe che domina la parte meridionale del Lago Maggiore. I Visconti vi fecero dipingere al suo interno un ciclo di affreschi importantissimo, nel quale si narra la decisiva vittoria dei Visconti sulla rivale famiglia dei Torriani nel 1277, che portò la stirpe viscontea al dominio della città di Milano.<br/>Nel XV secolo la Rocca di Angera passò alla famiglia Borromeo che la conservò intatta e immutata fino ai nostri giorni, arricchendola al suo interno di arredi di pregio e di singolari collezioni, come la ricchissima raccolta di bambole e giocattoli storici.<br/>Attorno alla Rocca è stato recentemente ricostruito il Giardino Medievale.  Un luogo apparato e incantato che ripropone fedelmente le forme e gli usi dei giardini nel Medioevo, che erano soprattutto dei luoghi di produzione. Per questo ci imbattiamo nei “verzieri” delle verdure e nei frutteti, nel giardino delle erbe medicinali e in quello dei fiori (riservato ai castellani). Per arrivare infine ai “boschetti”, che separavano il giardino dai prati dove pascolava tranquillo il bestiame.]]></string>
+    <string name="room">Posizione</string>
+    <string name="search_by_code">Cerca per nome o per codice</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Ricerca"</string>
+    <string name="select_fav_language">Benvenuto nell’audioguida dell’evento Riflessioni Plastiche.\nSeleziona la lingua.</string>
+    <string name="select_language">Benvenuto nell’audioguida dell’evento Riflessioni Plastiche.</string>
+    <string name="settings">Impostazioni</string>
+    <string name="special_offer">Offerta Speciale</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="terms_of_service">Termini del servizio</string>
+    <string name="version">Versione</string>
+    <string name="welcome">Benvenuti nell\'audioguida dell’evento Riflessioni Plastiche.</string>
+    <string name="where_is_it">Dove si trova</string>
+</resources>

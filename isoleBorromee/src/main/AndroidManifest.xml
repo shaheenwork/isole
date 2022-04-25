@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ezenit.isoleborromee"
+>
+
+
+
+
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+ <!--shn change   <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- This is needed for isWiredHeadsetOn() to work in some cases. (bug?) -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <!-- VERY IMPORTANT! Don't forget this permission, or in-app billing won't work. -->
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:name="com.ezenit.isoleborromee.AppIsole"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.ezenit.isoleborromee.ActivitySplashScreen"
+            android:launchMode="singleTask"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.ezenit.isoleborromee.ActivityAudioPlayer"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateUnchanged|adjustNothing"></activity>
+
+        <activity
+            android:name="com.ezenit.isoleborromee.ActivityLanguageSelection"
+            android:theme="@style/AppThemeTranslucent"
+            android:windowSoftInputMode="stateUnchanged|adjustNothing" />
+
+        <activity
+            android:name="com.ezenit.isoleborromee.ActivityFSAudioGallery"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustNothing" />
+
+        <activity
+            android:name="com.ezenit.isoleborromee.ActivityPhotoGallery"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged|adjustNothing" />
+
+        <activity
+            android:name="com.ezenit.isoleborromee.ActivityMapContainer"
+            android:windowSoftInputMode="stateUnchanged|adjustNothing"></activity>
+
+        <activity
+            android:name="com.ezenit.isoleborromee.ActivitySettings"
+            android:theme="@style/AppThemeTranslucent"
+            android:windowSoftInputMode="stateUnchanged|adjustNothing"></activity>
+
+        <receiver
+            android:name="com.ezenit.isoleborromee.service.AppIsoleReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.ezenit.download.services.DownloadManager.ACTION_DOWNLOAD_STATUS" />
+                <action android:name="com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_DOWNLOADHELPER_RESPONSE" />
+                <action android:name="com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_PARSE_XML" />
+                <action android:name="com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_EXTRACT_ZIP" />
+                <action android:name="com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_DOWNLOAD_ZIP" />
+                <action android:name="com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_CALCULATE_ZIP_SIZE" />
+                <action android:name="com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_ISOLE_INSTALLATION" />
+                <action android:name="com.ezenit.download.services.IDownloadService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+
+        <service
+            android:name="com.ezenit.isoleborromee.service.AppIsoleReceiver$DownloadHelperService"
+            android:exported="false"></service>
+
+        <service
+            android:name="com.ezenit.download.services.DownloadService"
+            android:exported="false"></service>
+
+        <receiver android:name="com.ezenit.mediaplayer.MediaButtonReceiver"
+            android:exported="true">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.ezenit.mediaplayer.PlaybackService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.ezenit.mediaplayer.action.PLAY" />
+                <action android:name="com.ezenit.mediaplayer.action.PAUSE" />
+                <action android:name="com.ezenit.mediaplayer.action.TOGGLE_PLAYBACK" />
+                <action android:name="com.ezenit.mediaplayer.action.NEXT_SONG" />
+                <action android:name="com.ezenit.mediaplayer.action.PREVIOUS_SONG" />
+            </intent-filter>
+
+        </service>
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="60951159f1f3fc2f733898308f508c4acc3efd18" />
+        <activity android:name="com.ezenit.test.AndroidDatabaseManager" />
+    </application>
+
+</manifest>

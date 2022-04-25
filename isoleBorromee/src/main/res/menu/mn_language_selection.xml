@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.eteam.isoleborromee.ActivityLanguageSelection" >
+
+    <item
+        android:id="@+id/action_fine"
+        android:orderInCategory="100"
+        android:title="@string/end"
+        app:showAsAction="always|withText"/>
+
+</menu>

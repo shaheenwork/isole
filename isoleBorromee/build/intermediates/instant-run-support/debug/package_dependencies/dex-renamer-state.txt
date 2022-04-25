@@ -1,0 +1,16 @@
+#Fri Apr 21 18:13:13 IST 2017
+renamed.4=classes2.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes5.dex
+base.4=E\:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_e57cdfc6bb208d5d46cdf8ef95ac778ac67271f9
+renamed.0=classes.dex
+base.3=E\:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-21.0.3_fdc44b05ffa0130396be281c9ce532656d1eed22
+base.2=E\:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-21.0.3_634076def2f42b04fbc66ba4c4e56297d9760b60
+base.1=E\:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\crashlytics_948dae2c1f5d7a845836b0d58fd8b892e9594855
+base.0=E\:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_0b9f585dbf23adac6630d06dec1198ae6977ac7b
+file.4=E\:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_e57cdfc6bb208d5d46cdf8ef95ac778ac67271f9\\classes.dex
+file.3=E\:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-21.0.3_fdc44b05ffa0130396be281c9ce532656d1eed22\\classes.dex
+file.2=E\:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-21.0.3_634076def2f42b04fbc66ba4c4e56297d9760b60\\classes.dex
+file.1=E\:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\crashlytics_948dae2c1f5d7a845836b0d58fd8b892e9594855\\classes.dex
+file.0=E\:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_0b9f585dbf23adac6630d06dec1198ae6977ac7b\\classes.dex

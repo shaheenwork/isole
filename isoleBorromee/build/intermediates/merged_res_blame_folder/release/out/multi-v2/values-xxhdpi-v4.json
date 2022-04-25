@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\values-xxhdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "12,11",
+                        "startColumns": "1,1",
+                        "startOffsets": "498,461",
+                        "endColumns": "41,35",
+                        "endOffsets": "538,495"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,100",
+                        "endColumns": "44,38",
+                        "endOffsets": "95,134"
+                    }
+                }
+            ]
+        }
+    ]
+}

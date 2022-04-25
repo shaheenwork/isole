@@ -1,0 +1,10 @@
+com/astuetz/pagerslidingtabstrip/BuildConfig.java
+ com.astuetz.pagerslidingtabstrip.BuildConfig
+com/astuetz/PagerSlidingTabStrip.java
+ com.astuetz.PagerSlidingTabStrip
+ com.astuetz.PagerSlidingTabStrip$1
+ com.astuetz.PagerSlidingTabStrip$2
+ com.astuetz.PagerSlidingTabStrip$IconTabProvider
+ com.astuetz.PagerSlidingTabStrip$PageListener
+ com.astuetz.PagerSlidingTabStrip$SavedState
+ com.astuetz.PagerSlidingTabStrip$SavedState$1

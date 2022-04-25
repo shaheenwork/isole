@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IsoleBorromee.iml" filepath="$PROJECT_DIR$/.idea/modules/IsoleBorromee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/imageLoaderLibrary/IsoleBorromee.imageLoaderLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/imageLoaderLibrary/IsoleBorromee.imageLoaderLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/imageMapLibrary/IsoleBorromee.imageMapLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/imageMapLibrary/IsoleBorromee.imageMapLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/isoleBorromee/IsoleBorromee.isoleBorromee.iml" filepath="$PROJECT_DIR$/.idea/modules/isoleBorromee/IsoleBorromee.isoleBorromee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraryProgressWheel/IsoleBorromee.libraryProgressWheel.iml" filepath="$PROJECT_DIR$/.idea/modules/libraryProgressWheel/IsoleBorromee.libraryProgressWheel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/slidingPaneLibrary/IsoleBorromee.slidingPaneLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/slidingPaneLibrary/IsoleBorromee.slidingPaneLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/slidingTabPanelLibrary/IsoleBorromee.slidingTabPanelLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/slidingTabPanelLibrary/IsoleBorromee.slidingTabPanelLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stickyScrollViewLibrary/IsoleBorromee.stickyScrollViewLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/stickyScrollViewLibrary/IsoleBorromee.stickyScrollViewLibrary.iml" />
+    </modules>
+  </component>
+</project>

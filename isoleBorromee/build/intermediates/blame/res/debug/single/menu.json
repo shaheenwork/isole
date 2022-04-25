@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\projects\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\menu\\mn_audio_guide_detail.xml",
+        "source": "E:\\projects\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\menu\\mn_audio_guide_detail.xml"
+    },
+    {
+        "merged": "E:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\menu\\activity_pane_layout_example.xml",
+        "source": "E:\\workspacesnew\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\bundles\\default\\res\\menu\\activity_pane_layout_example.xml"
+    },
+    {
+        "merged": "E:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\workspacesnew\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\bundles\\default\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\projects\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\projects\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\bundles\\default\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\projects\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\menu\\global.xml",
+        "source": "E:\\projects\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\bundles\\default\\res\\menu\\global.xml"
+    },
+    {
+        "merged": "E:\\projects\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\menu\\mn_language_selection.xml",
+        "source": "E:\\projects\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\menu\\mn_language_selection.xml"
+    },
+    {
+        "merged": "E:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\menu\\global.xml",
+        "source": "E:\\workspacesnew\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\bundles\\default\\res\\menu\\global.xml"
+    },
+    {
+        "merged": "E:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\menu\\mn_audio_guide_detail.xml",
+        "source": "E:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\menu\\mn_audio_guide_detail.xml"
+    },
+    {
+        "merged": "E:\\projects\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\menu\\activity_pane_layout_example.xml",
+        "source": "E:\\projects\\IsoleBorromee\\slidingPaneLibrary\\build\\intermediates\\bundles\\default\\res\\menu\\activity_pane_layout_example.xml"
+    },
+    {
+        "merged": "E:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\menu\\mn_language_selection.xml",
+        "source": "E:\\workspacesnew\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\menu\\mn_language_selection.xml"
+    }
+]

@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+attr? barColor
+attr? barLength
+attr? barWidth
+attr? circleColor
+attr? contourColor
+attr? contourSize
+attr? delayMillis
+attr? radius
+attr? rimColor
+attr? rimWidth
+attr? spinSpeed
+attr? text
+attr? textColor
+attr? textSize
+drawable header
+drawable ic_launcher
+drawable icon
+drawable login_gradient
+drawable login_gradient_flip
+drawable logo
+id RelativeLayout01
+id progressImage
+id tv_progressText
+layout progress_spinner
+string app_name
+string hello
+styleable ProgressWheel text textColor textSize barColor rimColor rimWidth spinSpeed delayMillis circleColor radius barWidth barLength contourColor contourSize

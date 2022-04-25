@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_primary_color" >
+    
+    <ImageView 
+        android:id="@+id/iconLogo"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/logo_isole"
+        android:scaleType="fitCenter"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"/>
+    
+    <com.ezenit.customview.IsoleTextView 
+        android:id="@+id/lblSelectLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/select_language"
+        android:textColor="@color/txt_action_bar"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/iconLogo"
+        android:layout_toLeftOf="@+id/btnFine"     
+        />
+    
+    <com.ezenit.customview.IsoleTextView  
+        android:id="@id/btnFine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/end"
+        android:textColor="@color/app_secondary_color"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:background="@drawable/btn_menu"/>
+
+</RelativeLayout>
