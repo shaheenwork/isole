@@ -7,6 +7,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.ActionBar;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.util.DisplayMetrics;
 import android.util.Log;
@@ -215,6 +216,15 @@ public class ActivityLanguageSelection extends AppCompatActivity {
 		actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
 		View actionBarView = getLayoutInflater().inflate(R.layout.acbar_lang_selection, null);
 		actionBar.setCustomView(actionBarView);
+
+		Toolbar toolbar=(Toolbar)actionBarView.getParent();
+		toolbar.setContentInsetsAbsolute(0,0);
+		toolbar.setContentInsetsAbsolute(0, 0);
+		toolbar.getContentInsetEnd();
+		toolbar.setPadding(0, 0, 0, 0);
+
+
+
 		lblSelectLanguage = (TextView) actionBarView.findViewById(R.id.lblSelectLanguage);
 		btnFine 		  = (TextView) actionBarView.findViewById(R.id.btnFine);
 		btnFine.setOnClickListener(new View.OnClickListener() {

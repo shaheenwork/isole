@@ -344,7 +344,7 @@
     <string name="installing_audio_guide">Installing audio guide</string>
     <string name="isola_bella">Riflessioni Plastiche</string>
     <string name="isola_madre">Isola Madre</string>
-    <string name="isole_bela_desc"><![CDATA[Test.]]></string>
+    <string name="isole_bela_desc"><![CDATA[The widespread exhibition, "Riflessioni Plastiche" (Plastic Reflection), offers six installations by Corrado Bonomi and Gianni Cella in dialogue with the town of Cannobio. We speak of "Riflessioni" (Reflection) because the work of the two artists stems from reflections on the themes of the "human condition" and because building a "widespread exhibition" requires a reflection on the chosen place and its urban fabric. "Plastiche" (Plastic) because the reflections on the themes cannot be separated from those on the materials used (mainly polymers), on the forms created and because a "plasticity" is necessary in order to interact with an entire inhabited area, especially using materials that can be defined as "atypical" or unusual . A joint project was created for the Ancient wash house entitled Perché svegliarsi? (Why wake up?) The sleeping and colored "Heads" of Cella rest on the polyester clouds, where in the past Bonomi had placed his many Sogni (Dreams) and Castelli in aria (Castles in the air), while others red and blue emerge on the surface of the water. At the Palazzo Mandamentale Bonomi has installed a Roseto (Rose Garden) and other Culture (Cultures), all works part of a cycle begun in 1992 that reproduce plants and flowers built with gardening objects, saucers, vases, irrigation canes, etc. Cella places on the steps of the court his almost human characters, Archetipi del disagio (Archetypes of discomfort) and Harvey, inspired by an American film of the fifties (Harvey, in fact) which tells of the drunkard Elwood and the great White Rabbit who always accompanies him and that only he can see. Along the porch of the Church of Santa Marta another Roseto (Rose Garden) by Bonomi climbs as well as other cultures of his dialogue, in the internal courtyard of via Umberto I with the Caos Primigenio (Primeval Chaos) of Cella: a set of faces with different morphologies, but same colors, randomly arranged on a rough concrete wall as if they were cells of a sort of primordial soup. Two sculptures by Cella, Fratelli Marx (Marx Brothers) and Totem rosso (Red Totem), are placed hieratically in the gardens of the Palazzo Comunale almost as ironic Dioscuri while the Aeroplanoni (Giant Airplanes) by Bonomi in folded and welded forex sheets, giant version of the scratches that schoolchildren made with pages torn from notebooks , they slip into the surrounding bushes and lawn. On the lakeside, dock, via Ceroni we find another work from the Culture cycle by Bonomi or a large flower about three meters high, whose petals are effectively made of large watering cans.]]></string>
     <string name="isole_borromee">Riflessioni\nPlastiche</string>
     <string name="isole_madre_desc"><![CDATA[This was the first of the Islands of the Borromean Archipelago to be inhabited by the noble Milanese family in the XVI century, and to this it owes its name of “Isola Madre”, the "Mother Island". The severe palace facing towards the Stresa shore of the lake, built under the direction of Pellegrino Tibaldi, famous Sixteenth Century architect and painter, active at the time of Cardinal Carlo Borromeo and King Philip II of Spain.  Visiting the palace is like plunging into the past, because the decor that embellishes the rooms mainly dates back to the first years of the Seventeenth Century.<br/>Once there were on the island coeval Italianate gardens, with terraces and plenty of fruit trees. Nowadays the green areas of Isola Madre are an admirable example of romantic English garden, with blocks of greenery which suddenly open to the surrounding landscape and offer spectacular blooms throughout the Spring and Summer months.  However the garden of Isola Madre is also full of life: innumerable ornamental birds live serene and undisturbed on the lawns and clearings of the park.]]></string>
     <string name="item_already_purchased">Item already purchased, please restore it from settings</string>
@@ -403,14 +403,10 @@
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
     <style name="Animation.AppCompat.Tooltip" parent="Base.Animation.AppCompat.Tooltip"/>
     <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
+        
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
          
         <item name="toolbarStyle">@style/AppThemeToolbar</item>  
   		
@@ -430,9 +426,7 @@
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:windowIsTranslucent">true</item>
-        <!-- Note that we use the base animation style here (that is no
-             animations) because we really have no idea how this kind of
-             activity will be used. -->
+        
         <item name="android:windowAnimationStyle">@android:style/Animation</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">

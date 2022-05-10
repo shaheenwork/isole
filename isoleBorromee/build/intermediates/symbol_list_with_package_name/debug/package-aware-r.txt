@@ -768,6 +768,8 @@ id RelativeLayout01
 id SHIFT
 id SYM
 id action0
+id actionBar
+id actionBarlang
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1178,6 +1180,9 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout toolbar
+layout toolbar_lang
+layout toolbar_title_arrow
 menu activity_pane_layout_example
 menu global
 menu main

@@ -132,9 +132,8 @@ com/ezenit/mediaplayer/CompatHoneycomb.java
  com.ezenit.mediaplayer.CompatHoneycomb
 com/ezenit/customview/SwipeableViewPager.java
  com.ezenit.customview.SwipeableViewPager
-com/ezenit/isoleborromee/fragments/FragmentTOS.java
- com.ezenit.isoleborromee.fragments.FragmentTOS
- com.ezenit.isoleborromee.fragments.FragmentTOS$1
+com/ezenit/utils/LanguageConstants.java
+ com.ezenit.utils.LanguageConstants
 com/ezenit/download/services/DownloadService.java
  com.ezenit.download.services.DownloadService
  com.ezenit.download.services.DownloadService$1
@@ -212,13 +211,6 @@ com/ezenit/download/services/DownloadTask.java
  com.ezenit.download.services.DownloadTask$ProgressReportingRandomAccessFile
 com/ezenit/download/utils/TextUtils.java
  com.ezenit.download.utils.TextUtils
-com/ezenit/isoleborromee/fragments/FragmentSettings.java
- com.ezenit.isoleborromee.fragments.FragmentSettings
- com.ezenit.isoleborromee.fragments.FragmentSettings$1
- com.ezenit.isoleborromee.fragments.FragmentSettings$2
- com.ezenit.isoleborromee.fragments.FragmentSettings$3
- com.ezenit.isoleborromee.fragments.FragmentSettings$4
- com.ezenit.isoleborromee.fragments.FragmentSettings$OnSettingsClickListener
 com/ezenit/isoleborromee/fragments/FragmentMap.java
  com.ezenit.isoleborromee.fragments.FragmentMap
  com.ezenit.isoleborromee.fragments.FragmentMap$1
@@ -230,6 +222,9 @@ com/ezenit/isoleborromee/fragments/FragmentMap.java
  com.ezenit.isoleborromee.fragments.FragmentMap$5
  com.ezenit.isoleborromee.fragments.FragmentMap$6
  com.ezenit.isoleborromee.fragments.FragmentMap$OnMapClickListener
+com/ezenit/isoleborromee/fragments/FragmentTOS.java
+ com.ezenit.isoleborromee.fragments.FragmentTOS
+ com.ezenit.isoleborromee.fragments.FragmentTOS$1
 com/ezenit/xmlparser/AudioGuideParser.java
  com.ezenit.xmlparser.AudioGuideParser
 com/ezenit/isoleborromee/ActivityFSAudioGallery.java
@@ -410,19 +405,24 @@ com/ezenit/isoleborromee/fragments/FragmentAudioList.java
  com.ezenit.isoleborromee.fragments.FragmentAudioList$8
  com.ezenit.isoleborromee.fragments.FragmentAudioList$9
  com.ezenit.isoleborromee.fragments.FragmentAudioList$OnAudioClickListener
-com/ezenit/isoleborromee/ActivityLanguageSelection.java
- com.ezenit.isoleborromee.ActivityLanguageSelection
- com.ezenit.isoleborromee.ActivityLanguageSelection$1
- com.ezenit.isoleborromee.ActivityLanguageSelection$2
-com/ezenit/utils/FragmentStatePagerAdapter.java
- com.ezenit.utils.FragmentStatePagerAdapter
-com/ezenit/utils/LanguageConstants.java
- com.ezenit.utils.LanguageConstants
 com/ezenit/isoleborromee/ActivitySettings.java
  com.ezenit.isoleborromee.ActivitySettings
  com.ezenit.isoleborromee.ActivitySettings$1
  com.ezenit.isoleborromee.ActivitySettings$2
  com.ezenit.isoleborromee.ActivitySettings$3
+com/ezenit/utils/FragmentStatePagerAdapter.java
+ com.ezenit.utils.FragmentStatePagerAdapter
+com/ezenit/isoleborromee/fragments/FragmentSettings.java
+ com.ezenit.isoleborromee.fragments.FragmentSettings
+ com.ezenit.isoleborromee.fragments.FragmentSettings$1
+ com.ezenit.isoleborromee.fragments.FragmentSettings$2
+ com.ezenit.isoleborromee.fragments.FragmentSettings$3
+ com.ezenit.isoleborromee.fragments.FragmentSettings$4
+ com.ezenit.isoleborromee.fragments.FragmentSettings$OnSettingsClickListener
+com/ezenit/isoleborromee/ActivityLanguageSelection.java
+ com.ezenit.isoleborromee.ActivityLanguageSelection
+ com.ezenit.isoleborromee.ActivityLanguageSelection$1
+ com.ezenit.isoleborromee.ActivityLanguageSelection$2
 com/ezenit/isoleborromee/ActivityAudioPlayer.java
  com.ezenit.isoleborromee.ActivityAudioPlayer
  com.ezenit.isoleborromee.ActivityAudioPlayer$1
