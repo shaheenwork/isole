@@ -9,6 +9,7 @@ import java.util.ArrayList;
 
 import android.app.Activity;
 import android.app.Notification;
+import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
@@ -21,6 +22,7 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.database.ContentObserver;
 import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Build;
@@ -34,11 +36,15 @@ import android.os.Process;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.provider.MediaStore;
+import android.support.v4.media.session.MediaSessionCompat;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.widget.RemoteViews;
 import android.widget.Toast;
+
+import androidx.annotation.RequiresApi;
+import androidx.core.app.NotificationCompat;
 
 import com.ezenit.isoleborromee.ActivityAudioPlayer;
 import com.ezenit.isoleborromee.db.table.TableAudioGuide.AudioGuide;
@@ -276,6 +282,8 @@ public final class PlaybackService extends Service
     private PowerManager.WakeLock mWakeLock;
     private NotificationManager mNotificationManager;
     private AudioManager mAudioManager;
+
+    private Notification.Builder notificationBuilder;
     /**
      * The SensorManager service.
      */
@@ -287,6 +295,9 @@ public final class PlaybackService extends Service
 
     AudioGuideTimeline mTimeline;
     private AudioGuide mCurrentSong;
+
+    private NotificationManager manager;
+
 
     boolean mPlayingBeforeCall;
     /**
@@ -335,15 +346,30 @@ public final class PlaybackService extends Service
      */
     private boolean mForceNotificationVisible;
 
+    private MediaSessionCompat mediaSession;
+    private String NOTIFICATION_CHANNEL_ID = "com.example.simpleapp";
+
 
     @Override
     public void onCreate() {
         HandlerThread thread = new HandlerThread("PlaybackService", Process.THREAD_PRIORITY_BACKGROUND);
         thread.start();
 
+        manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        String channelName = "My Background Service";
+        NotificationChannel chan = new NotificationChannel(NOTIFICATION_CHANNEL_ID, channelName, NotificationManager.IMPORTANCE_NONE);
+        chan.setLightColor(Color.BLUE);
+        chan.setLockscreenVisibility(Notification.VISIBILITY_PRIVATE);
+        assert manager != null;
+        manager.createNotificationChannel(chan);
+
+        notificationBuilder = new Notification.Builder(this, NOTIFICATION_CHANNEL_ID);
+
+
         mTimeline = new AudioGuideTimeline();
         mTimeline.setCallback(this);
         int state = loadState();
+
 
         mMediaPlayer = new MediaPlayer();
         mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
@@ -366,14 +392,14 @@ public final class PlaybackService extends Service
             mAudioManager.setSpeakerphoneOn(false);
 
 //change by bibin 	change 	STREAM_MUSIC to STREAM_VOICE_CALL
-           //shn change mAudioManager.setMode(AudioManager.STREAM_VOICE_CALL);
+            //shn change mAudioManager.setMode(AudioManager.STREAM_VOICE_CALL);
             mAudioManager.setMode(AudioManager.MODE_IN_CALL);
 ////////
         } else {
             //mAudioManager.setSpeakerphoneOn(true);
 
             ///bibin
-         //shn change   mAudioManager.setMode(AudioManager.STREAM_MUSIC);
+            //shn change   mAudioManager.setMode(AudioManager.STREAM_MUSIC);
             mAudioManager.setMode(AudioManager.MODE_IN_CALL);
 ////////////////////////
 
@@ -698,8 +724,11 @@ public final class PlaybackService extends Service
         return state;
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
+
     private void processNewState(int oldState, int state) {
         int toggled = oldState ^ state;
+
 
         if ((toggled & FLAG_PLAYING) != 0) {
             if ((state & FLAG_PLAYING) != 0) {
@@ -707,7 +736,12 @@ public final class PlaybackService extends Service
                     mMediaPlayer.start();
 
                 if (mNotificationMode != NEVER)
+
+               /* if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
+                    startMyOwnForeground();
+                else*/
                     startForeground(NOTIFICATION_ID, createNotification(mCurrentSong, mState));
+
 
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.FROYO) {
                     CompatFroyo.requestAudioFocus(mAudioManager);
@@ -801,6 +835,7 @@ public final class PlaybackService extends Service
         sendBroadcast(intent);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     private void updateNotification() {
         if ((mForceNotificationVisible || mNotificationMode == ALWAYS || mNotificationMode == WHEN_PLAYING && (mState & FLAG_PLAYING) != 0) && mCurrentSong != null)
             mNotificationManager.notify(NOTIFICATION_ID, createNotification(mCurrentSong, mState));
@@ -975,7 +1010,7 @@ public final class PlaybackService extends Service
                 updateState(mState & ~FLAG_ERROR);
             }
         } catch (IOException e) {
-           //shn change mErrorMessage = getResources().getString(R.string.audio_guide_load_failed, guide.getAudioPath(this));
+            //shn change mErrorMessage = getResources().getString(R.string.audio_guide_load_failed, guide.getAudioPath(this));
             mErrorMessage = getResources().getString(R.string.audio_guide_load_failed);
             updateState(mState | FLAG_ERROR);
             Toast.makeText(this, mErrorMessage, Toast.LENGTH_LONG).show();
@@ -1509,11 +1544,12 @@ public final class PlaybackService extends Service
      * @param prefs Where to load the action preference from.
      */
     public PendingIntent createNotificationAction(SharedPreferences prefs) {
+        mNotificationManager.cancel(NOTIFICATION_ID);
         switch (Integer.parseInt(prefs.getString(PrefKeys.NOTIFICATION_ACTION, "0"))) {
             case NOT_ACTION_NEXT_SONG: {
                 Intent intent = new Intent(this, PlaybackService.class);
                 intent.setAction(PlaybackService.ACTION_NEXT_SONG_AUTOPLAY);
-                return PendingIntent.getService(this, 0, intent, 0);
+                return PendingIntent.getService(this, 0, intent, PendingIntent.FLAG_IMMUTABLE);
             }
 //		case NOT_ACTION_MINI_ACTIVITY: {
 //			Intent intent = new Intent(this, MiniPlaybackActivity.class);
@@ -1525,7 +1561,7 @@ public final class PlaybackService extends Service
             case NOT_ACTION_MAIN_ACTIVITY: {
                 Intent intent = new Intent(this, ActivityAudioPlayer.class);
                 intent.setAction(Intent.ACTION_MAIN);
-                return PendingIntent.getActivity(this, 0, intent, 0);
+                return PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_IMMUTABLE);
             }
         }
     }
@@ -1537,7 +1573,9 @@ public final class PlaybackService extends Service
      * @param guide The AudioGuide to display information about.
      * @param state The state. Determines whether to show paused or playing icon.
      */
+    @RequiresApi(api = Build.VERSION_CODES.O)
     public Notification createNotification(AudioGuide guide, int state) {
+        // mNotificationManager.cancel(NOTIFICATION_ID);
         boolean playing = (state & FLAG_PLAYING) != 0;
 
         RemoteViews views = new RemoteViews(getPackageName(), R.layout.notification);
@@ -1552,22 +1590,22 @@ public final class PlaybackService extends Service
         String title = guide.getTitle();
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
-            int playButton = playing ? R.drawable.ic_pause : R.drawable.ic_play;
+            int playButton = playing ? R.drawable.pause2 : R.drawable.play2;
             views.setImageViewResource(R.id.play_pause, playButton);
 
             ComponentName service = new ComponentName(this, PlaybackService.class);
 
             Intent playPause = new Intent(PlaybackService.ACTION_TOGGLE_PLAYBACK_NOTIFICATION);
             playPause.setComponent(service);
-            views.setOnClickPendingIntent(R.id.play_pause, PendingIntent.getService(this, 0, playPause, 0));
+            views.setOnClickPendingIntent(R.id.play_pause, PendingIntent.getService(this, 0, playPause, PendingIntent.FLAG_IMMUTABLE));
 
             Intent next = new Intent(PlaybackService.ACTION_NEXT_SONG);
             next.setComponent(service);
-            views.setOnClickPendingIntent(R.id.next, PendingIntent.getService(this, 0, next, 0));
+            views.setOnClickPendingIntent(R.id.next, PendingIntent.getService(this, 0, next, PendingIntent.FLAG_IMMUTABLE));
 
             Intent close = new Intent(PlaybackService.ACTION_CLOSE_NOTIFICATION);
             close.setComponent(service);
-            views.setOnClickPendingIntent(R.id.close, PendingIntent.getService(this, 0, close, 0));
+            views.setOnClickPendingIntent(R.id.close, PendingIntent.getService(this, 0, close, PendingIntent.FLAG_IMMUTABLE));
         } else if (!playing) {
             title = getResources().getString(R.string.notification_title_paused, guide.getTitle());
         }
@@ -1580,11 +1618,62 @@ public final class PlaybackService extends Service
             views.setTextColor(R.id.artist, 0xffffffff);
         }
 
-        Notification notification = new Notification();
+        notificationBuilder = new Notification.Builder(this,NOTIFICATION_CHANNEL_ID);
+        Notification.MediaStyle style = new Notification.MediaStyle();
+        notificationBuilder.setStyle(style);
+
+
+        ComponentName service = new ComponentName(this, PlaybackService.class);
+
+        Intent playPause = new Intent(PlaybackService.ACTION_TOGGLE_PLAYBACK_NOTIFICATION);
+        playPause.setComponent(service);
+        views.setOnClickPendingIntent(R.id.play_pause, PendingIntent.getService(this, 0, playPause, PendingIntent.FLAG_IMMUTABLE));
+
+        Intent next = new Intent(PlaybackService.ACTION_NEXT_SONG);
+        next.setComponent(service);
+        views.setOnClickPendingIntent(R.id.next, PendingIntent.getService(this, 0, next, PendingIntent.FLAG_IMMUTABLE));
+
+        Intent close = new Intent(PlaybackService.ACTION_CLOSE_NOTIFICATION);
+        close.setComponent(service);
+        views.setOnClickPendingIntent(R.id.close, PendingIntent.getService(this, 0, close, PendingIntent.FLAG_IMMUTABLE));
+
+
+        notificationBuilder.setSmallIcon(R.drawable.ic_notif_icon)
+                .setContentText(getResources().getString(guide.getMuseum().getNameId()))
+                .setOngoing(true)
+                .setOnlyAlertOnce(true)
+                .setLargeIcon(guide.getCover(this, 32, 32));
+
+
+        notificationBuilder.setContentTitle(guide.getTitle());
+        notificationBuilder.addAction(R.drawable.pause2, "playpause", PendingIntent.getService(this, 0, playPause, PendingIntent.FLAG_IMMUTABLE));
+        //updateNotification();
+        /*
+        else {
+            notificationBuilder.setContentTitle(getResources().getString(R.string.notification_title_paused, guide.getTitle()));
+            notificationBuilder.addAction(R.drawable.play2, "playpause", PendingIntent.getService(this, 0, playPause, PendingIntent.FLAG_IMMUTABLE));
+            // updateNotification();
+        }*/
+        notificationBuilder.addAction(R.drawable.next2, "next", PendingIntent.getService(this, 0, next, PendingIntent.FLAG_IMMUTABLE));
+        notificationBuilder.addAction(R.drawable.close2, "close", PendingIntent.getService(this, 0, close, PendingIntent.FLAG_IMMUTABLE));
+
+
+        Notification notification = notificationBuilder.build();
         notification.contentView = views;
         notification.icon = R.drawable.ic_launcher;
         notification.flags |= Notification.FLAG_ONGOING_EVENT;
         notification.contentIntent = mNotificationAction;
+
+        if (playing) {
+            notification.actions[0] = new Notification.Action(R.drawable.pause2, "playpause", PendingIntent.getService(this, 0, playPause, PendingIntent.FLAG_IMMUTABLE));
+        } else {
+            notification.actions[0] = new Notification.Action(R.drawable.play2, "playpause", PendingIntent.getService(this, 0, playPause, PendingIntent.FLAG_IMMUTABLE));
+        }
+        manager.notify(NOTIFICATION_ID, notification);
+
+
+        //   mNotificationManager.notify(NOTIFICATION_ID,notification);
+
         return notification;
     }
 

@@ -479,6 +479,9 @@ public class AppIsole extends DBApp{
 		ImageLoader.getInstance().init(config);
 		
 		paddingHome =	getResources().getDimension(R.dimen.padding_home_up);
+
+
+
 	}
 	// ===========================================================
 	// Methods

@@ -41,7 +41,7 @@ public class CompatIcs {
 
 		Intent mediaButtonIntent = new Intent(Intent.ACTION_MEDIA_BUTTON);
 		mediaButtonIntent.setComponent(new ComponentName(context.getPackageName(), MediaButtonReceiver.class.getName()));
-		PendingIntent mediaPendingIntent = PendingIntent.getBroadcast(context, 0, mediaButtonIntent, 0);
+		PendingIntent mediaPendingIntent = PendingIntent.getBroadcast(context, 0, mediaButtonIntent, PendingIntent.FLAG_IMMUTABLE);
 		RemoteControlClient remote = new RemoteControlClient(mediaPendingIntent);
 		int flags = RemoteControlClient.FLAG_KEY_MEDIA_NEXT
 			| RemoteControlClient.FLAG_KEY_MEDIA_PREVIOUS

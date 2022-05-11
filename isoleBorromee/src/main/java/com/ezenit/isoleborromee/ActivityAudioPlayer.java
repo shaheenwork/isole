@@ -1,5 +1,14 @@
 package com.ezenit.isoleborromee;
 
+import static com.ezenit.download.services.DownloadManager.ACTION_DOWNLOAD_STATUS;
+import static com.ezenit.download.services.DownloadService.ACTION_DOWNLOAD;
+import static com.ezenit.isoleborromee.service.AppIsoleReceiver.ACTION_CALCULATE_ZIP_SIZE;
+import static com.ezenit.isoleborromee.service.AppIsoleReceiver.ACTION_DOWNLOADHELPER_RESPONSE;
+import static com.ezenit.isoleborromee.service.AppIsoleReceiver.ACTION_DOWNLOAD_ZIP;
+import static com.ezenit.isoleborromee.service.AppIsoleReceiver.ACTION_EXTRACT_ZIP;
+import static com.ezenit.isoleborromee.service.AppIsoleReceiver.ACTION_ISOLE_INSTALLATION;
+import static com.ezenit.isoleborromee.service.AppIsoleReceiver.ACTION_PARSE_XML;
+
 import java.util.ArrayList;
 
 import android.app.AlertDialog;
@@ -126,7 +135,6 @@ public class ActivityAudioPlayer extends PlaybackActivity
     
     public static final String ACTION_CHANGE_LANGUAGE = "com.ezenit.isoleborromee.ActivityAudioPlayer.ACTION_CHANGE_LANGUAGE";
     public static final String ACTION_PURCHASE_RESTORED = "com.ezenit.isoleborromee.ActivityAudioPlayer.ACTION_PURCHASE_RESTORED";
-    
 
 	// ===========================================================
 	// Fields
@@ -158,7 +166,8 @@ public class ActivityAudioPlayer extends PlaybackActivity
 	private IabHelper   mHelper;
 	
 	private OnChangeReceiver onChangeReceiver;
-	
+	private AppIsoleReceiver appIsoleReceiver;
+
 	/**
 	 * Cached StringBuilder for formatting track position.
 	 */
@@ -323,6 +332,22 @@ public class ActivityAudioPlayer extends PlaybackActivity
 		filter.addAction(ACTION_PURCHASE_RESTORED);
 		filter.addCategory(Intent.CATEGORY_DEFAULT);
 		registerReceiver(onChangeReceiver, filter);
+
+
+
+		appIsoleReceiver = new AppIsoleReceiver();
+		IntentFilter filter1 = new IntentFilter(ACTION_DOWNLOAD_STATUS);
+		filter1.addAction(ACTION_DOWNLOADHELPER_RESPONSE);
+		filter1.addAction(ACTION_PARSE_XML);
+		filter1.addAction(ACTION_EXTRACT_ZIP);
+		filter1.addAction(ACTION_DOWNLOAD_ZIP);
+		filter1.addAction(ACTION_CALCULATE_ZIP_SIZE);
+		filter1.addAction(ACTION_ISOLE_INSTALLATION);
+		filter1.addAction(ACTION_DOWNLOAD);
+		filter1.addCategory(Intent.CATEGORY_DEFAULT);
+		registerReceiver(appIsoleReceiver, filter1);
+
+
 	}
 	
 	@Override
@@ -331,6 +356,8 @@ public class ActivityAudioPlayer extends PlaybackActivity
 		super.onStop();
 		if(onChangeReceiver!=null)
 			unregisterReceiver(onChangeReceiver);
+		if (appIsoleReceiver!=null)
+			unregisterReceiver(appIsoleReceiver);
 	}
 	
 	@Override

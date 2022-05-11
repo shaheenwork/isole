@@ -3,231 +3,246 @@
 3    package="com.ezenit.isoleborromee" >
 4
 5    <uses-sdk
-6        android:minSdkVersion="14"
+6        android:minSdkVersion="26"
 6-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml
 7        android:targetSdkVersion="31" />
 7-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml
 8
-9    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-9-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:9:5-80
-9-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:9:22-77
-10    <uses-permission android:name="android.permission.INTERNET" />
-10-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:10:5-67
-10-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:10:22-64
-11    <!-- shn change   <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" /> -->
-12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-12-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:12:5-81
-12-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:12:22-78
-13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:13:5-79
-13-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:13:22-76
-14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-14-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:16:5-75
-14-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:16:22-72
-15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-15-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:12:5-81
-15-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:12:22-78
-16    <!-- This is needed for isWiredHeadsetOn() to work in some cases. (bug?) -->
-17    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-17-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:9:5-80
-17-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:9:22-77
-18
-19    <!-- VERY IMPORTANT! Don't forget this permission, or in-app billing won't work. -->
-20    <uses-permission android:name="com.android.vending.BILLING" />
-20-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:22:5-67
-20-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:22:22-64
-21
-22    <application
-22-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:24:5-122:19
-23        android:name="com.ezenit.isoleborromee.AppIsole"
-23-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:25:9-57
-24        android:allowBackup="true"
-24-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:26:9-35
-25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-25-->[androidx.core:core:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\9902be9b1aac21e364b85501bd7541d0\core-1.0.0\AndroidManifest.xml:22:18-86
-26        android:debuggable="true"
-27        android:icon="@drawable/ic_launcher"
-27-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:27:9-45
-28        android:label="@string/app_name"
-28-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:28:9-41
-29        android:largeHeap="true"
-29-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:29:9-33
-30        android:testOnly="true"
-31        android:theme="@style/AppTheme" >
-31-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:30:9-40
-32        <activity
-32-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:32:9-41:20
-33            android:name="com.ezenit.isoleborromee.ActivitySplashScreen"
-33-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:33:13-73
-34            android:exported="true"
-34-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:35:13-36
-35            android:launchMode="singleTask"
-35-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:34:13-44
-36            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
-36-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:36:13-80
-37            <intent-filter>
-37-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:37:13-40:29
-38                <action android:name="android.intent.action.MAIN" />
-38-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:38:17-69
-38-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:38:25-66
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:39:17-77
-40-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:39:27-74
-41            </intent-filter>
-42        </activity>
-43        <activity
-43-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:43:9-47:83
-44            android:name="com.ezenit.isoleborromee.ActivityAudioPlayer"
-44-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:44:13-72
-45            android:label="@string/app_name"
-45-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:45:13-45
-46            android:launchMode="singleTask"
-46-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:46:13-44
-47            android:windowSoftInputMode="stateUnchanged|adjustNothing" />
-47-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:47:13-71
-48        <activity
-48-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:49:9-52:74
-49            android:name="com.ezenit.isoleborromee.ActivityLanguageSelection"
-49-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:50:13-78
-50            android:theme="@style/AppThemeTranslucent"
-50-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:51:13-55
-51            android:windowSoftInputMode="stateUnchanged|adjustNothing" />
-51-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:52:13-71
-52        <activity
-52-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:54:9-57:74
-53            android:name="com.ezenit.isoleborromee.ActivityFSAudioGallery"
-53-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:55:13-75
-54            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-54-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:56:13-69
-55            android:windowSoftInputMode="stateUnchanged|adjustNothing" />
-55-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:57:13-71
-56        <activity
-56-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:59:9-62:74
-57            android:name="com.ezenit.isoleborromee.ActivityPhotoGallery"
-57-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:60:13-73
-58            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-58-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:61:13-69
-59            android:windowSoftInputMode="stateUnchanged|adjustNothing" />
-59-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:62:13-71
-60        <activity
-60-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:64:9-66:83
-61            android:name="com.ezenit.isoleborromee.ActivityMapContainer"
-61-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:65:13-73
+9    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+9-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:8:5-77
+9-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:8:22-74
+10    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+10-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:9:5-80
+10-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:9:22-77
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:10:5-67
+11-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:10:22-64
+12    <!-- shn change   <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" /> -->
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:12:5-81
+13-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:12:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:13:5-79
+14-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:13:22-76
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:16:5-75
+15-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:16:22-72
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:12:5-81
+16-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:12:22-78
+17    <!-- This is needed for isWiredHeadsetOn() to work in some cases. (bug?) -->
+18    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+18-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:9:5-80
+18-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:9:22-77
+19
+20    <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+20-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:20:5-75
+20-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:20:17-72
+21    <!-- VERY IMPORTANT! Don't forget this permission, or in-app billing won't work. -->
+22    <uses-permission android:name="com.android.vending.BILLING" />
+22-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:22:5-67
+22-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:22:22-64
+23
+24    <application
+24-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:24:5-124:19
+25        android:name="com.ezenit.isoleborromee.AppIsole"
+25-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:25:9-57
+26        android:allowBackup="true"
+26-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:26:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.0.0] C:\Users\shahe\.gradle\caches\transforms-2\files-2.1\9902be9b1aac21e364b85501bd7541d0\core-1.0.0\AndroidManifest.xml:22:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:icon="@drawable/ic_launcher"
+30-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:28:9-45
+31        android:label="@string/app_name"
+31-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:29:9-41
+32        android:largeHeap="true"
+32-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:30:9-33
+33        android:theme="@style/AppTheme"
+33-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:31:9-40
+34        android:usesCleartextTraffic="true" >
+34-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:27:9-44
+35        <uses-library
+35-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:32:9-87
+36            android:name="org.apache.http.legacy"
+36-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:32:23-60
+37            android:required="false" />
+37-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:32:61-85
+38
+39        <activity
+39-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:34:9-43:20
+40            android:name="com.ezenit.isoleborromee.ActivitySplashScreen"
+40-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:35:13-73
+41            android:exported="true"
+41-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:37:13-36
+42            android:launchMode="singleTask"
+42-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:36:13-44
+43            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+43-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:38:13-80
+44            <intent-filter>
+44-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:39:13-42:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:40:17-69
+45-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:40:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:41:17-77
+47-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:41:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:45:9-49:83
+51            android:name="com.ezenit.isoleborromee.ActivityAudioPlayer"
+51-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:46:13-72
+52            android:label="@string/app_name"
+52-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:47:13-45
+53            android:launchMode="singleTask"
+53-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:48:13-44
+54            android:windowSoftInputMode="stateUnchanged|adjustNothing" />
+54-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:49:13-71
+55        <activity
+55-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:51:9-54:74
+56            android:name="com.ezenit.isoleborromee.ActivityLanguageSelection"
+56-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:52:13-78
+57            android:theme="@style/AppThemeTranslucent"
+57-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:53:13-55
+58            android:windowSoftInputMode="stateUnchanged|adjustNothing" />
+58-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:54:13-71
+59        <activity
+59-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:56:9-59:74
+60            android:name="com.ezenit.isoleborromee.ActivityFSAudioGallery"
+60-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:57:13-75
+61            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+61-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:58:13-69
 62            android:windowSoftInputMode="stateUnchanged|adjustNothing" />
-62-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:66:13-71
+62-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:59:13-71
 63        <activity
-63-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:68:9-71:83
-64            android:name="com.ezenit.isoleborromee.ActivitySettings"
-64-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:69:13-69
-65            android:theme="@style/AppThemeTranslucent"
-65-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:70:13-55
+63-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:61:9-64:74
+64            android:name="com.ezenit.isoleborromee.ActivityPhotoGallery"
+64-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:62:13-73
+65            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+65-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:63:13-69
 66            android:windowSoftInputMode="stateUnchanged|adjustNothing" />
-66-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:71:13-71
-67
-68        <receiver
-68-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:73:9-88:20
-69            android:name="com.ezenit.isoleborromee.service.AppIsoleReceiver"
-69-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:74:13-77
-70            android:exported="false" >
-70-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:75:13-37
-71            <intent-filter>
-71-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:76:13-87:29
-72                <action android:name="com.ezenit.download.services.DownloadManager.ACTION_DOWNLOAD_STATUS" />
-72-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:77:17-110
-72-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:77:25-107
-73                <action android:name="com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_DOWNLOADHELPER_RESPONSE" />
-73-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:78:17-122
-73-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:78:25-119
-74                <action android:name="com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_PARSE_XML" />
-74-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:79:17-108
-74-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:79:25-105
-75                <action android:name="com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_EXTRACT_ZIP" />
-75-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:80:17-110
-75-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:80:25-107
-76                <action android:name="com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_DOWNLOAD_ZIP" />
-76-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:81:17-111
-76-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:81:25-108
-77                <action android:name="com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_CALCULATE_ZIP_SIZE" />
-77-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:82:17-117
-77-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:82:25-114
-78                <action android:name="com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_ISOLE_INSTALLATION" />
-78-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:83:17-117
-78-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:83:25-114
-79                <action android:name="com.ezenit.download.services.IDownloadService" />
-79-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:84:17-88
-79-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:84:25-85
-80
-81                <category android:name="android.intent.category.DEFAULT" />
-81-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:86:17-76
-81-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:86:27-73
-82            </intent-filter>
-83        </receiver>
-84
-85        <service
-85-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:91:9-93:48
-86            android:name="com.ezenit.isoleborromee.service.AppIsoleReceiver$DownloadHelperService"
-86-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:92:13-99
-87            android:exported="false" />
-87-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:93:13-37
-88        <service
-88-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:95:9-97:48
-89            android:name="com.ezenit.download.services.DownloadService"
-89-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:96:13-72
-90            android:exported="false" />
-90-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:97:13-37
+66-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:64:13-71
+67        <activity
+67-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:66:9-68:83
+68            android:name="com.ezenit.isoleborromee.ActivityMapContainer"
+68-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:67:13-73
+69            android:windowSoftInputMode="stateUnchanged|adjustNothing" />
+69-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:68:13-71
+70        <activity
+70-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:70:9-73:83
+71            android:name="com.ezenit.isoleborromee.ActivitySettings"
+71-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:71:13-69
+72            android:theme="@style/AppThemeTranslucent"
+72-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:72:13-55
+73            android:windowSoftInputMode="stateUnchanged|adjustNothing" />
+73-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:73:13-71
+74
+75        <receiver
+75-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:75:9-90:20
+76            android:name="com.ezenit.isoleborromee.service.AppIsoleReceiver"
+76-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:76:13-77
+77            android:exported="false" >
+77-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:77:13-37
+78            <intent-filter>
+78-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:78:13-89:29
+79                <action android:name="com.ezenit.download.services.DownloadManager.ACTION_DOWNLOAD_STATUS" />
+79-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:79:17-110
+79-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:79:25-107
+80                <action android:name="com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_DOWNLOADHELPER_RESPONSE" />
+80-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:80:17-122
+80-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:80:25-119
+81                <action android:name="com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_PARSE_XML" />
+81-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:81:17-108
+81-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:81:25-105
+82                <action android:name="com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_EXTRACT_ZIP" />
+82-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:82:17-110
+82-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:82:25-107
+83                <action android:name="com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_DOWNLOAD_ZIP" />
+83-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:83:17-111
+83-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:83:25-108
+84                <action android:name="com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_CALCULATE_ZIP_SIZE" />
+84-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:84:17-117
+84-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:84:25-114
+85                <action android:name="com.ezenit.isoleborrome.service.AppIsoleReceiver.ACTION_ISOLE_INSTALLATION" />
+85-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:85:17-117
+85-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:85:25-114
+86                <action android:name="com.ezenit.download.services.IDownloadService" />
+86-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:86:17-88
+86-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:86:25-85
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:88:17-76
+88-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:88:27-73
+89            </intent-filter>
+90        </receiver>
 91
-92        <receiver
-92-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:99:9-104:20
-93            android:name="com.ezenit.mediaplayer.MediaButtonReceiver"
-93-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:99:19-76
-94            android:exported="true" >
-94-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:100:13-36
-95            <intent-filter android:priority="999" >
-95-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:101:13-103:29
-95-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:101:28-50
-96                <action android:name="android.intent.action.MEDIA_BUTTON" />
-96-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:102:17-77
-96-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:102:25-74
-97            </intent-filter>
-98        </receiver>
-99
-100        <service
-100-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:106:9-117:19
-101            android:name="com.ezenit.mediaplayer.PlaybackService"
-101-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:107:13-66
-102            android:exported="false" >
-102-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:108:13-37
-103            <intent-filter>
-103-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:109:13-115:29
-104                <action android:name="com.ezenit.mediaplayer.action.PLAY" />
-104-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:110:17-77
-104-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:110:25-74
-105                <action android:name="com.ezenit.mediaplayer.action.PAUSE" />
-105-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:111:17-78
-105-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:111:25-75
-106                <action android:name="com.ezenit.mediaplayer.action.TOGGLE_PLAYBACK" />
-106-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:112:17-88
-106-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:112:25-85
-107                <action android:name="com.ezenit.mediaplayer.action.NEXT_SONG" />
-107-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:113:17-82
-107-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:113:25-79
-108                <action android:name="com.ezenit.mediaplayer.action.PREVIOUS_SONG" />
-108-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:114:17-86
-108-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:114:25-83
-109            </intent-filter>
-110        </service>
-111
-112        <meta-data
-112-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:118:9-120:72
-113            android:name="com.crashlytics.ApiKey"
-113-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:119:13-50
-114            android:value="60951159f1f3fc2f733898308f508c4acc3efd18" />
-114-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:120:13-69
-115
-116        <activity android:name="com.ezenit.test.AndroidDatabaseManager" />
-116-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:121:9-75
-116-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:121:19-72
-117    </application>
+92        <service
+92-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:93:9-95:48
+93            android:name="com.ezenit.isoleborromee.service.AppIsoleReceiver$DownloadHelperService"
+93-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:94:13-99
+94            android:exported="false" />
+94-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:95:13-37
+95        <service
+95-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:97:9-99:48
+96            android:name="com.ezenit.download.services.DownloadService"
+96-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:98:13-72
+97            android:exported="false" />
+97-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:99:13-37
+98
+99        <receiver
+99-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:101:9-106:20
+100            android:name="com.ezenit.mediaplayer.MediaButtonReceiver"
+100-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:101:19-76
+101            android:exported="true" >
+101-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:102:13-36
+102            <intent-filter android:priority="999" >
+102-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:103:13-105:29
+102-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:103:28-50
+103                <action android:name="android.intent.action.MEDIA_BUTTON" />
+103-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:104:17-77
+103-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:104:25-74
+104            </intent-filter>
+105        </receiver>
+106
+107        <service
+107-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:108:9-119:19
+108            android:name="com.ezenit.mediaplayer.PlaybackService"
+108-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:109:13-66
+109            android:exported="false" >
+109-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:110:13-37
+110            <intent-filter>
+110-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:111:13-117:29
+111                <action android:name="com.ezenit.mediaplayer.action.PLAY" />
+111-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:112:17-77
+111-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:112:25-74
+112                <action android:name="com.ezenit.mediaplayer.action.PAUSE" />
+112-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:113:17-78
+112-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:113:25-75
+113                <action android:name="com.ezenit.mediaplayer.action.TOGGLE_PLAYBACK" />
+113-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:114:17-88
+113-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:114:25-85
+114                <action android:name="com.ezenit.mediaplayer.action.NEXT_SONG" />
+114-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:115:17-82
+114-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:115:25-79
+115                <action android:name="com.ezenit.mediaplayer.action.PREVIOUS_SONG" />
+115-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:116:17-86
+115-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:116:25-83
+116            </intent-filter>
+117        </service>
 118
-119</manifest>
+119        <meta-data
+119-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:120:9-122:72
+120            android:name="com.crashlytics.ApiKey"
+120-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:121:13-50
+121            android:value="60951159f1f3fc2f733898308f508c4acc3efd18" />
+121-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:122:13-69
+122
+123        <activity android:name="com.ezenit.test.AndroidDatabaseManager" />
+123-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:123:9-75
+123-->D:\Android Projects\E TEAM\work\IsoleBorromee\isoleBorromee\src\main\AndroidManifest.xml:123:19-72
+124    </application>
+125
+126</manifest>

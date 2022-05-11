@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.appcompat.app.ActionBar;
@@ -171,7 +172,14 @@ public class ActivityMapContainer extends AppCompatActivity implements FragmentM
 		
 		View actionBarView = inflater.inflate(R.layout.acbar_title_subtitle, root,false);
 		actionBar.setCustomView(actionBarView);
-		
+
+		Toolbar toolbar=(Toolbar)actionBarView.getParent();
+		toolbar.setContentInsetsAbsolute(0,0);
+		toolbar.setContentInsetsAbsolute(0, 0);
+		toolbar.getContentInsetEnd();
+		toolbar.setPadding(0, 0, 0, 0);
+
+
 		btnLeft = actionBarView.findViewById(R.id.btnLeft);
 		btnLeft.setClickable(true);
 		

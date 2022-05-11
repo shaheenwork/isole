@@ -11,6 +11,7 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.appcompat.app.ActionBar;
 
@@ -739,6 +740,14 @@ public class FragmentMuseumItems extends Fragment{
 		actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
 		View actionBarView = inflater.inflate(R.layout.acbar_title_subtitle, root,false);
 		actionBar.setCustomView(actionBarView);
+
+		Toolbar toolbar=(Toolbar)actionBarView.getParent();
+		toolbar.setContentInsetsAbsolute(0,0);
+		toolbar.setContentInsetsAbsolute(0, 0);
+		toolbar.getContentInsetEnd();
+		toolbar.setPadding(0, 0, 0, 0);
+
+
 		View btnLeft = actionBarView.findViewById(R.id.btnLeft);
 		btnLeft.setOnClickListener(new OnClickListener() {
 			

@@ -13,7 +13,7 @@ public class ConfigUtils {
 
 	public static SharedPreferences getPreferences(Context context) {
 		return context.getSharedPreferences(PREFERENCE_NAME,
-				Context.MODE_WORLD_WRITEABLE);
+				Context.MODE_PRIVATE);
 	}
 
 	public static String getString(Context context, String key) {

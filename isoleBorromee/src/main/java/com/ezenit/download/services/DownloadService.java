@@ -18,7 +18,7 @@ public class DownloadService extends Service {
 	// ===========================================================
 
 
-	private static final String ACTION_DOWNLOAD = "com.ezenit.download.services.IDownloadService";
+	public static final String ACTION_DOWNLOAD = "com.ezenit.download.services.IDownloadService";
 	
 	// ===========================================================
 	// Fields

@@ -676,6 +676,7 @@ drawable btn_menu
 drawable btn_photo_gallery
 drawable btn_rocca_d_angera
 drawable btn_settings
+drawable close2
 drawable cursor
 drawable drawer_shadow
 drawable header
@@ -715,6 +716,7 @@ drawable ic_map
 drawable ic_map_default
 drawable ic_map_selected
 drawable ic_museum_list_detail
+drawable ic_notif_icon
 drawable ic_open_accordian
 drawable ic_open_accordion_default
 drawable ic_open_accordion_selected
@@ -740,6 +742,7 @@ drawable login_gradient_flip
 drawable logo
 drawable logo_isole
 drawable next
+drawable next2
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -753,6 +756,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pause2
+drawable play2
 drawable roccadiangera_bg
 drawable shadow_left
 drawable shadow_right

@@ -410,6 +410,9 @@ public class FragmentMap extends Fragment {
 //		actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
 //		View actionBarView = inflater.inflate(R.layout.acbar_title_subtitle, root,false);
 //		actionBar.setCustomView(actionBarView);
+
+
+
 //		btnLeft = actionBarView.findViewById(R.id.btnLeft);
 //		
 //		btnLeft.setOnClickListener(new OnClickListener() {

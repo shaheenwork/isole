@@ -24,7 +24,6 @@ THE SOFTWARE.-->
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_gravity="center_vertical"
-    android:background="@android:color/black"
     android:orientation="horizontal">
 
     <ImageView
@@ -50,6 +49,7 @@ THE SOFTWARE.-->
             android:layout_height="wrap_content"
             android:ellipsize="marquee"
             android:singleLine="true"
+            android:textColor="#000"
             android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent.Title" />
 
         <TextView
@@ -73,7 +73,7 @@ THE SOFTWARE.-->
         android:paddingRight="15dp"
         android:paddingTop="5dip"
         android:scaleType="fitCenter"
-        android:src="@drawable/ic_play" />
+        android:src="@drawable/play2" />
 
     <ImageButton
         android:id="@+id/next"
@@ -87,7 +87,7 @@ THE SOFTWARE.-->
         android:paddingRight="15dp"
         android:paddingTop="15dip"
         android:scaleType="fitCenter"
-        android:src="@drawable/next" />
+        android:src="@drawable/next2" />
 
     <ImageButton
         android:id="@+id/close"
@@ -101,5 +101,5 @@ THE SOFTWARE.-->
         android:paddingRight="15dp"
         android:paddingTop="5dip"
         android:scaleType="fitCenter"
-        android:src="@drawable/notification_close" />
+        android:src="@drawable/close2" />
 </LinearLayout>

@@ -6,7 +6,7 @@ android {
     useLibrary 'org.apache.http.legacy'
     defaultConfig {
         applicationId "com.ezenit.isoleborromee"
-        minSdkVersion 14
+        minSdkVersion 26
         targetSdkVersion 31
     }
 
@@ -30,5 +30,6 @@ dependencies {
     compile project(':stickyScrollViewLibrary')
     compile project(':imageMapLibrary')
     compile 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.media:media:1.0.0'
     compile files('libs/crashlytics.jar')
 }

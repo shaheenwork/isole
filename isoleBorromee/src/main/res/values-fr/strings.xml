@@ -137,7 +137,7 @@
 		<item quantity="one">%d1 song enqueued.</item>
 		<item quantity="other">%d songs enqueued.</item>
 	</plurals>
-	<string name="notification_title_paused">%s (Paused)</string>
+	<string name="notification_title_paused">%s</string>
 	
 
 	
