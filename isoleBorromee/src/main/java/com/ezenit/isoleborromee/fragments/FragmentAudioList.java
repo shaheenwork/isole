@@ -446,7 +446,7 @@ public class FragmentAudioList extends Fragment{
 		fieldTitle.setVisibility(View.VISIBLE);
 		btnLeft.setVisibility(View.VISIBLE);
 		fieldSubTitle.setVisibility(View.GONE);
-		btnRight.setVisibility(View.VISIBLE);
+	//	btnRight.setVisibility(View.VISIBLE);
 	}
 	
 	private void resetActionBar(){

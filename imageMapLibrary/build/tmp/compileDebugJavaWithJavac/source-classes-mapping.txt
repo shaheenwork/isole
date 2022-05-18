@@ -1,36 +1,36 @@
 gmail/chenyoca/imagemap/support/ScaleUtility.java
  gmail.chenyoca.imagemap.support.ScaleUtility
-gmail/chenyoca/imagemap/support/TextShape.java
- gmail.chenyoca.imagemap.support.TextShape
-gmail/chenyoca/imagemap/support/CircleShape.java
- gmail.chenyoca.imagemap.support.CircleShape
-gmail/chenyoca/imagemap/support/CoordsToShape.java
- gmail.chenyoca.imagemap.support.CoordsToShape
-gmail/chenyoca/imagemap/support/ShapeExtension.java
- gmail.chenyoca.imagemap.support.ShapeExtension
- gmail.chenyoca.imagemap.support.ShapeExtension$OnShapeActionListener
-gmail/chenyoca/imagemap/support/Shape.java
- gmail.chenyoca.imagemap.support.Shape
 gmail/chenyoca/imagemap/TouchImageView.java
  gmail.chenyoca.imagemap.TouchImageView
  gmail.chenyoca.imagemap.TouchImageView$1
  gmail.chenyoca.imagemap.TouchImageView$OnEdgeReachListener
  gmail.chenyoca.imagemap.TouchImageView$ScaleListener
-gmail/chenyoca/imagemap/HighlightImageView.java
- gmail.chenyoca.imagemap.HighlightImageView
- gmail.chenyoca.imagemap.HighlightImageView$1
-gmail/chenyoca/imagemap/support/Bubble.java
- gmail.chenyoca.imagemap.support.Bubble
- gmail.chenyoca.imagemap.support.Bubble$RenderDelegate
 gmail/chenyoca/imagemap/support/TranslateAnimation.java
  gmail.chenyoca.imagemap.support.TranslateAnimation
  gmail.chenyoca.imagemap.support.TranslateAnimation$OnAnimationListener
+gmail/chenyoca/imagemap/BuildConfig.java
+ gmail.chenyoca.imagemap.BuildConfig
+gmail/chenyoca/imagemap/support/TextShape.java
+ gmail.chenyoca.imagemap.support.TextShape
+gmail/chenyoca/imagemap/HighlightImageView.java
+ gmail.chenyoca.imagemap.HighlightImageView
+ gmail.chenyoca.imagemap.HighlightImageView$1
+gmail/chenyoca/imagemap/support/CircleShape.java
+ gmail.chenyoca.imagemap.support.CircleShape
+gmail/chenyoca/imagemap/support/Bubble.java
+ gmail.chenyoca.imagemap.support.Bubble
+ gmail.chenyoca.imagemap.support.Bubble$RenderDelegate
 gmail/chenyoca/imagemap/support/PolyShape.java
  gmail.chenyoca.imagemap.support.PolyShape
 gmail/chenyoca/imagemap/support/RectShape.java
  gmail.chenyoca.imagemap.support.RectShape
-gmail/chenyoca/imagemap/BuildConfig.java
- gmail.chenyoca.imagemap.BuildConfig
+gmail/chenyoca/imagemap/support/CoordsToShape.java
+ gmail.chenyoca.imagemap.support.CoordsToShape
 gmail/chenyoca/imagemap/ImageMap.java
  gmail.chenyoca.imagemap.ImageMap
  gmail.chenyoca.imagemap.ImageMap$OnBubbleShowListener
+gmail/chenyoca/imagemap/support/ShapeExtension.java
+ gmail.chenyoca.imagemap.support.ShapeExtension
+ gmail.chenyoca.imagemap.support.ShapeExtension$OnShapeActionListener
+gmail/chenyoca/imagemap/support/Shape.java
+ gmail.chenyoca.imagemap.support.Shape

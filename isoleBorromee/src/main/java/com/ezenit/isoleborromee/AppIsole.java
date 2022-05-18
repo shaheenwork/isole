@@ -360,7 +360,7 @@ public class AppIsole extends DBApp{
 	 * 			{@link LanguageConstants #FRENCH}
 	 * ******************************************************************************/
 	public static final String getAppLocaleAsStr(){
-		return prefs.getString("appLocale", LanguageConstants.ENGLISH);
+		return prefs.getString("appLocale", LanguageConstants.ITALIAN);
 	}
 	
 	public static final Locale getAppLocale(){

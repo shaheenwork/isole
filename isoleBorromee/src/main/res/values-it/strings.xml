@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
-    <string name="app_name">Isole Borromee</string>
+    <string name="app_name">Riflessioni Plastiche</string>
     <string name="settings">Impostazioni</string>
     
     <string name="pause">Pausa</string>
@@ -13,9 +13,12 @@
      <string name="image_title">Titolo</string>
      <string name="image_desc">Descrizione</string>
 
+    <string name="title_new">Mostra Riflessioni Plastiche</string>
+    <string name="sub_title_new">Cannobio</string>
+
     <!-- Start Page -->
     <string name="select_language">Benvenuto nell’audioguida dell’evento Riflessioni Plastiche.</string>
-     <string name="select_fav_language">Benvenuto nell’audioguida dell’evento Riflessioni Plastiche.\nSeleziona la lingua.</string>
+     <string name="select_fav_language">Seleziona la lingua.</string>
      <string name="welcome">Benvenuti nell\'audioguida dell’evento Riflessioni Plastiche.</string>
     
     <string name="isole_borromee">Riflessioni\nPlastiche</string>
@@ -80,14 +83,20 @@
      <string name="download_all_bought">Vuoi scaricare ora tutti i contenuti acquistati?</string>
     
     <string-array name="languages">
-        <item >Inglese</item>
         <item >Italiano</item>
+        <item >Inglese</item>
     </string-array>
     
     <string name="automatic">Automatico</string>
     <string name="play_on">Play: ON</string>
     <string name="play_off">Play: OFF</string>
-        
+
+
+    <string name="link_1">Corrado Bonomi - Iscrizione Newsletter</string>
+    <string name="link_2">Gianni Cella - Iscrizione Newsletter</string>
+    <string name="link_3">Quiz della mostra</string>
+
+
     <string name="code">Codice</string>
     <string name="nr_audio">Nr. audio</string>
     <!-- Dummy Data -->

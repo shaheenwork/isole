@@ -71,6 +71,7 @@ public class FragmentAudioDetail extends Fragment {
 
     private static final int COLOR_MAP_HIGHLIGHT = Color.rgb(207, 51, 60);
     private static final int COLOR_CIRCLE = Color.parseColor("#699099");
+    private static final int COLOR_SELECTED_CIRCLE = Color.parseColor("#BC0000");
 
     // ===========================================================
     // Fields
@@ -387,7 +388,13 @@ public class FragmentAudioDetail extends Fragment {
                                 textShape.zIndex = 2;
                                 Log.d(TAG, "onLoadingComplete: " + baseRoom.getRoomNo());
                                 if (roomNo != baseRoom.getRoomNo()) {
-                                    CircleShape circle = new CircleShape(roomNo + "_no", COLOR_CIRCLE);
+                                    CircleShape circle;
+                                    if (Integer.parseInt(audioGuide.getRoom())==Integer.parseInt(roomNo)) {
+                                         circle = new CircleShape(roomNo + "_no", COLOR_SELECTED_CIRCLE);
+                                    }
+                                    else {
+                                        circle = new CircleShape(roomNo + "_no", COLOR_CIRCLE);
+                                    }
                                     circle.setRadius(20);
                                     circle.setAlaph(255);
                                     circle.setValues(coords, scale);

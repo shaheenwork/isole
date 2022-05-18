@@ -1,79 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ezenit.isoleborromee"
->
-
-
+    package="com.ezenit.isoleborromee">
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-    <uses-permission android:name="android.permission.INTERNET" />
- <!--shn change   <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />-->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- shn change   <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" /> -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
-
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <!-- This is needed for isWiredHeadsetOn() to work in some cases. (bug?) -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- This is needed for isWiredHeadsetOn() to work in some cases. (bug?) -->
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-    <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
-    <!-- VERY IMPORTANT! Don't forget this permission, or in-app billing won't work. -->
+
+    <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" /> <!-- VERY IMPORTANT! Don't forget this permission, or in-app billing won't work. -->
     <uses-permission android:name="com.android.vending.BILLING" />
 
     <application
-        android:name="com.ezenit.isoleborromee.AppIsole"
+        android:name=".AppIsole"
         android:allowBackup="true"
-        android:usesCleartextTraffic="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:largeHeap="true"
-        android:theme="@style/AppTheme">
-        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+
 
         <activity
-            android:name="com.ezenit.isoleborromee.ActivitySplashScreen"
-            android:launchMode="singleTask"
+            android:name=".ActivitySplashScreen"
             android:exported="true"
+            android:launchMode="singleTask"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name="com.ezenit.isoleborromee.ActivityAudioPlayer"
+            android:name=".ActivityAudioPlayer"
             android:label="@string/app_name"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="stateUnchanged|adjustNothing"></activity>
-
+            android:windowSoftInputMode="stateUnchanged|adjustNothing" />
         <activity
-            android:name="com.ezenit.isoleborromee.ActivityLanguageSelection"
+            android:name=".ActivityLanguageSelection"
             android:theme="@style/AppThemeTranslucent"
             android:windowSoftInputMode="stateUnchanged|adjustNothing" />
-
         <activity
-            android:name="com.ezenit.isoleborromee.ActivityFSAudioGallery"
+            android:name=".ActivityFSAudioGallery"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="stateUnchanged|adjustNothing" />
-
         <activity
-            android:name="com.ezenit.isoleborromee.ActivityPhotoGallery"
+            android:name=".ActivityPhotoGallery"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="stateUnchanged|adjustNothing" />
-
         <activity
-            android:name="com.ezenit.isoleborromee.ActivityMapContainer"
-            android:windowSoftInputMode="stateUnchanged|adjustNothing"></activity>
-
+            android:name=".ActivityMapContainer"
+            android:windowSoftInputMode="stateUnchanged|adjustNothing" />
         <activity
-            android:name="com.ezenit.isoleborromee.ActivitySettings"
+            android:name=".ActivitySettings"
             android:theme="@style/AppThemeTranslucent"
-            android:windowSoftInputMode="stateUnchanged|adjustNothing"></activity>
+            android:windowSoftInputMode="stateUnchanged|adjustNothing" />
 
         <receiver
-            android:name="com.ezenit.isoleborromee.service.AppIsoleReceiver"
+            android:name=".service.AppIsoleReceiver"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.ezenit.download.services.DownloadManager.ACTION_DOWNLOAD_STATUS" />
@@ -89,16 +82,15 @@
             </intent-filter>
         </receiver>
 
-
         <service
-            android:name="com.ezenit.isoleborromee.service.AppIsoleReceiver$DownloadHelperService"
-            android:exported="false"></service>
-
+            android:name=".service.AppIsoleReceiver$DownloadHelperService"
+            android:exported="false" />
         <service
             android:name="com.ezenit.download.services.DownloadService"
-            android:exported="false"></service>
+            android:exported="false" />
 
-        <receiver android:name="com.ezenit.mediaplayer.MediaButtonReceiver"
+        <receiver
+            android:name="com.ezenit.mediaplayer.MediaButtonReceiver"
             android:exported="true">
             <intent-filter android:priority="999">
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
@@ -115,11 +107,12 @@
                 <action android:name="com.ezenit.mediaplayer.action.NEXT_SONG" />
                 <action android:name="com.ezenit.mediaplayer.action.PREVIOUS_SONG" />
             </intent-filter>
-
         </service>
+
         <meta-data
             android:name="com.crashlytics.ApiKey"
             android:value="60951159f1f3fc2f733898308f508c4acc3efd18" />
+
         <activity android:name="com.ezenit.test.AndroidDatabaseManager" />
     </application>
 

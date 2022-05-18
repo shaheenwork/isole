@@ -23,12 +23,16 @@ android {
 }
 
 dependencies {
+    implementation 'com.google.android.material:material:1.6.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
     compile project(':libraryProgressWheel')
     compile project(':slidingPaneLibrary')
     compile project(':slidingTabPanelLibrary')
     compile project(':imageLoaderLibrary')
     compile project(':stickyScrollViewLibrary')
+    implementation 'com.asksira.android:webviewsuite:1.0.3'
     compile project(':imageMapLibrary')
+    implementation 'androidx.browser:browser:1.2.0'
     compile 'androidx.appcompat:appcompat:1.0.0'
     implementation 'androidx.media:media:1.0.0'
     compile files('libs/crashlytics.jar')

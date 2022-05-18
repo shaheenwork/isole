@@ -64,8 +64,9 @@
         <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/activity_language_selection.xml" value="0.10666666666666667" />
         <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/activity_settings.xml" value="0.1" />
+        <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/activity_web_view.xml" value="0.15833333333333333" />
         <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/fr_alert.xml" value="0.1" />
-        <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/fr_audio_detail.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/fr_audio_detail.xml" value="0.5" />
         <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/fr_buy_all.xml" value="0.22" />
         <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/fr_credits.xml" value="0.16666666666666666" />
         <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/fr_download_view.xml" value="0.3333333333333333" />
@@ -78,7 +79,7 @@
         <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/fr_list_audio_guide.xml" value="0.4175" />
         <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/fr_main.xml" value="0.1" />
         <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/fr_museum_items.xml" value="0.17036172695449242" />
-        <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/fr_museum_selection.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/fr_museum_selection.xml" value="0.22" />
         <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/fr_photo_gallery.xml" value="0.17395833333333333" />
         <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/fr_photogallery_grid.xml" value="0.1" />
         <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/fr_photogallery_image.xml" value="0.1" />
@@ -94,7 +95,7 @@
         <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/row_fr_language.xml" value="0.1" />
         <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/row_gallery_grid.xml" value="0.1" />
         <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/layout/row_language.xml" value="0.1" />
-        <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/menu/mn_audio_guide_detail.xml" value="0.1" />
+        <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/menu/mn_audio_guide_detail.xml" value="0.6" />
         <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/isoleBorromee/src/main/res/menu/mn_language_selection.xml" value="0.1" />
         <entry key="..\:/Android Projects/E TEAM/work/IsoleBorromee/slidingPaneLibrary/src/main/res/menu/activity_pane_layout_example.xml" value="0.1" />
       </map>

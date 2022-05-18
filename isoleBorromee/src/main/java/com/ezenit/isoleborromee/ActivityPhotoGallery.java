@@ -10,15 +10,19 @@ import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager.widget.ViewPager.OnPageChangeListener;
 
 import android.text.TextUtils;
 import android.util.AttributeSet;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
 import android.view.animation.AnimationUtils;
@@ -62,7 +66,8 @@ public class ActivityPhotoGallery extends AppCompatActivity {
 	private int position;
 	private String language;
 	private Museum musuem;
-	
+
+
 	// ===========================================================
 	// Constructors
 	// ===========================================================
@@ -82,7 +87,12 @@ public class ActivityPhotoGallery extends AppCompatActivity {
 		intent.putExtra(ARG_POSITION, position);
 		context.startActivity(intent);
 	}
-	
+
+
+
+
+
+
 	// ===========================================================
 	// Getter & Setter
 	// ===========================================================
@@ -213,10 +223,13 @@ public class ActivityPhotoGallery extends AppCompatActivity {
 		else{
 			fieldTitle.setText(title);
 		}
-		
+
+		ActionBar actionBar = getSupportActionBar();
+
+		actionBar.setTitle(getResources().getString(R.string.title_new));
+
 		fieldDescription.setText(image.getDescrition());
-		fieldMusuem.setText(musuem.getNameId());
-		
+		fieldMusuem.setText(getResources().getString(R.string.sub_title_new));
 		viewPager.setOnPageChangeListener(new OnPageChangeListener() {
 			
 			@Override
