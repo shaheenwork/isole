@@ -29,6 +29,7 @@
 	    <View 
 	        android:layout_width="match_parent"
 	        android:layout_height="1dp"
+			android:visibility="gone"
 	        android:layout_marginLeft="10dp"
 	        android:layout_marginRight="10dp"
 	        android:background="#DADADA"/>
@@ -37,6 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/credits"
+			android:visibility="gone"
             android:textColor="#333333"
             android:layout_gravity="center_vertical"
             android:padding="@dimen/padding_credit"	

@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:2:1-22:12
 	package
 		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:3:5-52
 		INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml
@@ -14,11 +14,9 @@ INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel
 	android:versionCode
 		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:4:5-28
 application
-ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:9:5-21:19
+ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:9:5-20:19
 	android:label
-		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:11:9-41
-	android:icon
-		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:10:9-45
+		ADDED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:10:9-41
 uses-sdk
 INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml

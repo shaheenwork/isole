@@ -4,24 +4,7 @@
             "outputFile": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\shahe\\.gradle\\caches\\transforms-2\\files-2.1\\07adfc08fe16d3453ab9291511ec05fe\\core-1.5.0\\res\\values-pt\\values-pt.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "34",
-                        "startColumns": "4",
-                        "startOffsets": "3360",
-                        "endColumns": "100",
-                        "endOffsets": "3456"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\shahe\\.gradle\\caches\\transforms-2\\files-2.1\\f9db3af1d4b21c0f8eaed47c1558f861\\appcompat-1.2.0\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\shahe\\.gradle\\caches\\transforms-2\\files-2.1\\8f63d9c6eab1fc3ec3bd8e994478e6d9\\appcompat-1.2.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\shahe\\.gradle\\caches\\transforms-2\\files-2.1\\2ec63da7417283d2b3d577d58ea3a0a2\\browser-1.2.0\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\shahe\\.gradle\\caches\\transforms-2\\files-2.1\\e81257837f1767da48ac036f752f439b\\core-1.5.0\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "34",
+                        "startColumns": "4",
+                        "startOffsets": "3360",
+                        "endColumns": "100",
+                        "endOffsets": "3456"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shahe\\.gradle\\caches\\transforms-2\\files-2.1\\7a698df1605b2f2bcd4cc6d658bf076a\\browser-1.2.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="languages">
+        <item>English</item>
+        <item>Italiano</item>
+    </string-array>
+    <plurals name="enqueued">
+		<item quantity="one">%d1 song enqueued.</item>
+		<item quantity="other">%d songs enqueued.</item>
+	</plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d nouvelle notification</item>
+    <item quantity="other">%d nouvelles notifications</item>
+  </plurals>
+    <plurals name="playing">
+		<item quantity="one">%d1 song playing.</item>
+		<item quantity="other">%d songs playing.</item>
+	</plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Revenir en haut de la page"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Autres options"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"OK"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Tout afficher"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Sélectionner une application"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"NON"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"OUI"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"supprimer"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"entrée"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fonction+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Méta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Maj+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"espace"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Rechercher…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Effacer la requête"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Requête de recherche"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Rechercher"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Envoyer la requête"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Recherche vocale"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Partager avec"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Partager avec <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Réduire"</string>
+    <string name="all_in_one">Tout en un</string>
+    <string name="app_name">Isole Borromee</string>
+    <string name="audio_guide">Audioguide</string>
+    <string name="audio_guide_garden">Guide garden</string>
+    <string name="audio_guide_general">Audioguide general</string>
+    <string name="audio_guide_load_failed">Le audio guide est corrompu. Veuillez redownload pour le corriger.</string>
+    <string name="audio_guide_palace">Audioguide\ndu Palais et du Jardin</string>
+    <string name="automatic">Automatique</string>
+    <string name="bottomsheet_action_expand_halfway">Développer en entier</string>
+    <string name="buy">Acheter</string>
+    <string name="buy_all_in_one">Isola Bella Audioguide,\nIsola Madre Audioguide,\nForteresse d’Angera Audioguide</string>
+    <string name="cancel">Annuler</string>
+    <string name="character_counter_content_description">Caractères saisis %1$d sur %2$d</string>
+    <string name="character_counter_overflowed_content_description">Nombre maximal de caractères dépassé : %1$d sur %2$d</string>
+    <string name="clear_app_data">Effacer les données de l\'application</string>
+    <string name="clear_text_end_icon_content_description">Effacer le texte</string>
+    <string name="close">Fermer</string>
+    <string name="close_notification">Fermer la notification</string>
+    <string name="cod_with_dot">Cod.</string>
+    <string name="code">Code</string>
+    <string name="code_audio">Code audio</string>
+    <string name="common_google_play_services_unknown_issue">L\'application %1$s rencontre des problèmes avec les services Google Play. Veuillez réessayer.</string>
+    <string msgid="8230469354668895088" name="copy_toast_msg">"Lien copié dans le presse-papiers"</string>
+    <string name="cover_art">Cover art</string>
+    <string name="credits">Crédits</string>
+    <string name="credits_desc"><![CDATA[Audiotour made for<br/><b>S.A.G. srl</b><br/><br/>The contents (texts, photos and audio) that appear inside this App belong to S.A.G. srl and are under copyright registration. Reuse, modification, distribution or commercialization by third parties is therefore not allowed.]]></string>
+    <string name="download">Télécharger</string>
+    <string name="download_all_bought">Voulez-vous télécharger maintenant tout le contenu acheté?</string>
+    <string name="downloading">Téléchargement</string>
+    <string name="downloading_audio_guide">Télécharger audioguide</string>
+    <string name="dummy_codice">34567</string>
+    <string name="dummy_description">Lorem Ipsum is simply dummy text of the printing and 
+        typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever 
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but also the 
+        leap into electronic typesetting, remaining essentially unchanged. It was popularised
+        in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+        and more recently with desktop publishing software like Aldus PageMaker including 
+        versions of Lorem Ipsum.</string>
+    <string name="dummy_quatro_camerino">Quatro Camerino</string>
+    <string name="dummy_stanza_arrazi">Stanza Arrazzi (3)</string>
+    <string name="end">Fermer</string>
+    <string name="error_icon_content_description">Erreur</string>
+    <string name="export">Exportation</string>
+    <string name="export_failed">Échec de l\'exportation</string>
+    <string name="exposed_dropdown_menu_content_description">Afficher le menu déroulant</string>
+    <string msgid="2615365786337886368" name="fallback_menu_item_copy_link">"Copier le lien"</string>
+    <string msgid="8984733760067120953" name="fallback_menu_item_open_in_browser">"Ouvrir dans un navigateur"</string>
+    <string msgid="271185644269364308" name="fallback_menu_item_share_link">"Partager le lien"</string>
+    <string name="hyphen">-</string>
+    <string name="icon_content_description">Icône de la boîte de dialogue</string>
+    <string name="image_desc">Desc</string>
+    <string name="image_title">Titre</string>
+    <string name="image_unavailable">Image non disponible</string>
+    <string name="in_queue">dans la queue</string>
+    <string name="infos">Infos</string>
+    <string name="installation_failed">L\'installation a échoué</string>
+    <string name="installing">Installation</string>
+    <string name="installing_audio_guide">Installation audioguide</string>
+    <string name="isola_bella">Isola Bella</string>
+    <string name="isola_madre">Isola Madre</string>
+    <string name="isole_bela_desc"><![CDATA[L’Isola Bella du Golfe Borromée est un lieu bien réel aux allures de rêve. Sous vos yeux se déploie un superbe panorama baroque, un scénario spectaculaire d’édifices et de jardins émergeant des eaux et encerclés par les montagnes. Ce qui autrefois n’était guère plus qu’un affleurement rocheux où habitait une poignée de pêcheurs fut transformé entre le XVIIe et le XVIIIe siècle en l’une des localités les plus charmantes d’Italie. Le palais princier des Borromée s’élève sur la partie nord de l’île et abrite un mobilier et des œuvres d’une importance exceptionnelle. Alcôves et salles de bal, galeries de peinture et collections de tapisseries, armoires et grottes se succèdent au gré d’un circuit captivant, véritable invitation à l’émerveillement. La visite se poursuit au cœur des jardins à l’italienne, encore d’origine et uniques au monde de par leur forme toute particulière : une pyramide de dix terrasses s’élevant au-dessus du lac, peuplées de statues, d’obélisques, de fontaines, de nymphes, sans oublier les fleurs et les agrumes en espalier. À l’époque romantique, de nouvelles plantes et essences, ainsi que de nouvelles fleurs et serres furent ajoutées aux précédentes. Enfin, derniers hôtes remarquables, véritables seigneurs des jardins : les paons blancs des Borromée.]]></string>
+    <string name="isole_borromee">Îles\nBorromées</string>
+    <string name="isole_madre_desc"><![CDATA[L’Isola Madre fut la première île de l’archipel Borromée à accueillir au XVIe siècle la noble famille milanaise et doit justement son nom d’île Mère à cet héritage historique. L’imposant palais faisant face à la rive de Stresa, construit sous la direction de Pellegrino Tibaldi, célèbre architecte et peintre du XVIe siècle ayant œuvré à l’époque du cardinal Charles Borromée et du roi Philippe II d’Espagne. La visite du palais invite à plonger dans le passé, grâce aux décorations des pièces datant principalement de la première année du XVIIe siècle. Autrefois, les jardins d’origine à l’italienne étaient articulés en terrasses peuplées de nombreux agrumes. Aujourd’hui, les espaces verts de l’Isola Madre représentent un modèle exemplaire de jardin romantique à l’anglaise, avec ses tapis de verdure s’ouvrant à l’improviste sur le paysage alentour et offrant de spectaculaires floraisons au printemps et en été. Le jardin de l’Isola Madre regorge également de vie : d’innombrables oiseaux d’ornement vivent en toute sérénité sur les pelouses et dans les clairières du parc.]]></string>
+    <string name="item_already_purchased">Article déjà acheté, veuillez le restaurer à partir des paramètres</string>
+    <string name="item_view_role_description">Tabulation</string>
+    <string name="language">Langue</string>
+    <string name="map_del_palazzo">Plan du bâtiment</string>
+    <string name="material_clock_toggle_content_description">Sélectionner le format AM ou PM</string>
+    <string name="material_hour_selection">Sélectionnez une heure</string>
+    <string name="material_hour_suffix">%1$s h</string>
+    <string name="material_minute_selection">Sélectionner des minutes</string>
+    <string name="material_minute_suffix">%1$s min</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Passer en mode horloge pour la saisie de l\'heure.</string>
+    <string name="material_timepicker_hour">Heure</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Sélectionner l\'heure</string>
+    <string name="material_timepicker_text_input_mode_description">Passer en mode saisie de texte pour la saisie de l\'heure.</string>
+    <string name="msg_buy_ag_isole_bella">Acheter l\'audioguide complet de Isola Bella</string>
+    <string name="msg_buy_ag_isole_madre">Acheter l\’audioguide complet de Isola Madre</string>
+    <string name="msg_buy_all">You can buy all the contents of the application for a special price</string>
+    <string name="msg_download_gallery">Vous pouvez télécharger une galerie gratuite</string>
+    <string name="msg_inapp_error_purchasing">Erreur:</string>
+    <string name="msg_inapp_user_cancelled">L\'achat a été annulé par l\'utilisateur.</string>
+    <string name="msg_inapp_verification_failed">Erreur d\'achat. Échec de la vérification de l\'authenticité.</string>
+    <string name="msg_title_palazzo">Audioguide du Palais</string>
+    <string name="mtrl_badge_numberless_content_description">Nouvelle notification</string>
+    <string name="mtrl_chip_close_icon_content_description">Supprimer %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Plus de %1$d nouvelles notifications</string>
+    <string name="mtrl_picker_a11y_next_month">Passer au mois suivant</string>
+    <string name="mtrl_picker_a11y_prev_month">Passer au mois précédent</string>
+    <string name="mtrl_picker_announce_current_selection">Sélection actuelle : %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Sélectionnez une date</string>
+    <string name="mtrl_picker_date_header_unselected">Date sélectionnée</string>
+    <string name="mtrl_picker_day_of_week_column_header">Colonne du jour de la semaine : %1$s</string>
+    <string name="mtrl_picker_invalid_format">Format incorrect.</string>
+    <string name="mtrl_picker_invalid_format_example">Exemple : %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Utiliser %1$s</string>
+    <string name="mtrl_picker_invalid_range">Plage non valide.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Accéder à l\'année %1$s</string>
+    <string name="mtrl_picker_out_of_range">Hors limite : %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Date de début – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Date de fin</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">Sélectionnez une période</string>
+    <string name="mtrl_picker_range_header_unselected">Date de début – Date de fin</string>
+    <string name="mtrl_picker_save">Enregistrer</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Date de fin</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Date de début</string>
+    <string name="mtrl_picker_text_input_day_abbr">j</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Passer au mode de saisie Agenda</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Appuyer pour sélectionner un jour</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Passer au mode de saisie Texte</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Appuyer pour sélectionner une année</string>
+    <string name="next_song">Next song</string>
+    <string name="notification_title_paused">%s</string>
+    <string name="nr_audio">Nr. audio</string>
+    <string name="password_toggle_content_description">Afficher le mot de passe</string>
+    <string name="pause">Pause</string>
+    <string name="pause_audio">Pause Audio</string>
+    <string name="photo_gallery">Galerie photos</string>
+    <string name="play_audio">Play Audio</string>
+    <string name="play_off">Play: OFF</string>
+    <string name="play_on">Play: ON</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="position">Position:</string>
+    <string name="preparing">En train de préparer</string>
+    <string name="queueing">Queuing</string>
+    <string name="restore_failed">Échec de la restauration, réessayez plus tard</string>
+    <string name="restore_no_prev_purchase">Aucun achat antérieur trouvé pour restaurer</string>
+    <string name="restore_successful">Restauration réussie</string>
+    <string name="restore_your_purchase">Restaurer votre achat</string>
+    <string name="restoring_your_purchase">Restaurer vos achats</string>
+    <string name="rocca_d_angera">Forteresse d\'Angera</string>
+    <string name="rocca_d_angera_desc"><![CDATA[La forteresse d’Angera est un édifice médiéval fortifié intégralement et parfaitement conservé. Érigée par la famille Visconti, la forteresse se dresse dans une position absolument stratégique, au sommet d’une colline surplombant l’extrémité sud du lac majeur. La famille Visconti fit décorer les intérieurs avec une très importante série de fresques narrant l’histoire de la victoire décisive des Visconti sur la famille rivale des Torriani en 1277, qui permit ainsi aux Visconti de régner sur la ville de Milan. Au XVe siècle, la forteresse d’Angera passa entre les mains de la famille Borromée, qui la préserva intacte jusqu’à nos jours, enrichissant les intérieurs d’un mobilier précieux et de collections uniques, telles que la superbe collection de poupées et de jouets d’époque. Réalisé de date récente autour de la forteresse, dans un recoin isolé et enchanté, un jardin médiéval reproduit fidèlement les formes et les usages des jardins, à l’époque destinés principalement à l’agriculture. C’est pourquoi l’on y retrouve des zones potagères de fruits et de légumes, et des jardins d’herbes médicinales et de fleurs (réservés aux personnes habitant dans le château). Au fond s’étendent les bosquets qui séparaient les jardins des prés servant au pâturage du bétail.]]></string>
+    <string name="room">Chambre</string>
+    <string name="search_by_code">Recherche par nom ou code</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Rechercher"</string>
+    <string name="select_fav_language">Bienvenue dans l\'audioguide des Îles Borromées.\nSélectionner une langue.</string>
+    <string name="select_language">Bienvenue dans l\'audioguide des Îles Borromées</string>
+    <string name="settings">Paramètres</string>
+    <string name="special_offer">Special offer</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="terms_of_service">Conditions de service</string>
+    <string name="version">Version</string>
+    <string name="welcome">Bienvenue dans l\'audioguide des Îles Borromées</string>
+    <string name="where_is_it">Où est-ce</string>
+</resources>

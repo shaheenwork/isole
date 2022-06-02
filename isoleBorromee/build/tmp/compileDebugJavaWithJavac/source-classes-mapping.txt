@@ -101,17 +101,18 @@ com/ezenit/isoleborromee/db/table/TablePhotoGallery.java
  com.ezenit.isoleborromee.db.table.TablePhotoGallery$RelationType
 com/ezenit/xmlparser/MapParser.java
  com.ezenit.xmlparser.MapParser
-com/ezenit/isoleborromee/fragments/FragmentMap.java
- com.ezenit.isoleborromee.fragments.FragmentMap
- com.ezenit.isoleborromee.fragments.FragmentMap$1
- com.ezenit.isoleborromee.fragments.FragmentMap$2
- com.ezenit.isoleborromee.fragments.FragmentMap$3
- com.ezenit.isoleborromee.fragments.FragmentMap$4
- com.ezenit.isoleborromee.fragments.FragmentMap$4$1
- com.ezenit.isoleborromee.fragments.FragmentMap$4$2
- com.ezenit.isoleborromee.fragments.FragmentMap$5
- com.ezenit.isoleborromee.fragments.FragmentMap$6
- com.ezenit.isoleborromee.fragments.FragmentMap$OnMapClickListener
+com/ezenit/isoleborromee/fragments/FragmentAudioDetail.java
+ com.ezenit.isoleborromee.fragments.FragmentAudioDetail
+ com.ezenit.isoleborromee.fragments.FragmentAudioDetail$1
+ com.ezenit.isoleborromee.fragments.FragmentAudioDetail$2
+ com.ezenit.isoleborromee.fragments.FragmentAudioDetail$2$1
+ com.ezenit.isoleborromee.fragments.FragmentAudioDetail$3
+ com.ezenit.isoleborromee.fragments.FragmentAudioDetail$3$1
+ com.ezenit.isoleborromee.fragments.FragmentAudioDetail$4
+ com.ezenit.isoleborromee.fragments.FragmentAudioDetail$5
+ com.ezenit.isoleborromee.fragments.FragmentAudioDetail$6
+ com.ezenit.isoleborromee.fragments.FragmentAudioDetail$7
+ com.ezenit.isoleborromee.fragments.FragmentAudioDetail$OnAudioDetailClickListener
 com/ezenit/isoleborromee/fragments/FragmentBuyAll.java
  com.ezenit.isoleborromee.fragments.FragmentBuyAll
  com.ezenit.isoleborromee.fragments.FragmentBuyAll$1
@@ -131,9 +132,27 @@ com/ezenit/mediaplayer/CompatHoneycomb.java
  com.ezenit.mediaplayer.CompatHoneycomb
 com/ezenit/customview/SwipeableViewPager.java
  com.ezenit.customview.SwipeableViewPager
-com/ezenit/isoleborromee/fragments/FragmentTOS.java
- com.ezenit.isoleborromee.fragments.FragmentTOS
- com.ezenit.isoleborromee.fragments.FragmentTOS$1
+com/ezenit/isoleborromee/ActivityAudioPlayer.java
+ com.ezenit.isoleborromee.ActivityAudioPlayer
+ com.ezenit.isoleborromee.ActivityAudioPlayer$1
+ com.ezenit.isoleborromee.ActivityAudioPlayer$10
+ com.ezenit.isoleborromee.ActivityAudioPlayer$11
+ com.ezenit.isoleborromee.ActivityAudioPlayer$12
+ com.ezenit.isoleborromee.ActivityAudioPlayer$13
+ com.ezenit.isoleborromee.ActivityAudioPlayer$14
+ com.ezenit.isoleborromee.ActivityAudioPlayer$15
+ com.ezenit.isoleborromee.ActivityAudioPlayer$16
+ com.ezenit.isoleborromee.ActivityAudioPlayer$17
+ com.ezenit.isoleborromee.ActivityAudioPlayer$2
+ com.ezenit.isoleborromee.ActivityAudioPlayer$3
+ com.ezenit.isoleborromee.ActivityAudioPlayer$4
+ com.ezenit.isoleborromee.ActivityAudioPlayer$5
+ com.ezenit.isoleborromee.ActivityAudioPlayer$6
+ com.ezenit.isoleborromee.ActivityAudioPlayer$7
+ com.ezenit.isoleborromee.ActivityAudioPlayer$8
+ com.ezenit.isoleborromee.ActivityAudioPlayer$9
+ com.ezenit.isoleborromee.ActivityAudioPlayer$ExamplePaneSizer
+ com.ezenit.isoleborromee.ActivityAudioPlayer$OnChangeReceiver
 com/ezenit/download/services/DownloadService.java
  com.ezenit.download.services.DownloadService
  com.ezenit.download.services.DownloadService$1
@@ -414,36 +433,17 @@ com/ezenit/utils/FragmentStatePagerAdapter.java
  com.ezenit.utils.FragmentStatePagerAdapter
 com/ezenit/utils/LanguageConstants.java
  com.ezenit.utils.LanguageConstants
-com/ezenit/isoleborromee/fragments/FragmentAudioDetail.java
- com.ezenit.isoleborromee.fragments.FragmentAudioDetail
- com.ezenit.isoleborromee.fragments.FragmentAudioDetail$1
- com.ezenit.isoleborromee.fragments.FragmentAudioDetail$2
- com.ezenit.isoleborromee.fragments.FragmentAudioDetail$2$1
- com.ezenit.isoleborromee.fragments.FragmentAudioDetail$3
- com.ezenit.isoleborromee.fragments.FragmentAudioDetail$3$1
- com.ezenit.isoleborromee.fragments.FragmentAudioDetail$4
- com.ezenit.isoleborromee.fragments.FragmentAudioDetail$5
- com.ezenit.isoleborromee.fragments.FragmentAudioDetail$6
- com.ezenit.isoleborromee.fragments.FragmentAudioDetail$7
- com.ezenit.isoleborromee.fragments.FragmentAudioDetail$OnAudioDetailClickListener
-com/ezenit/isoleborromee/ActivityAudioPlayer.java
- com.ezenit.isoleborromee.ActivityAudioPlayer
- com.ezenit.isoleborromee.ActivityAudioPlayer$1
- com.ezenit.isoleborromee.ActivityAudioPlayer$10
- com.ezenit.isoleborromee.ActivityAudioPlayer$11
- com.ezenit.isoleborromee.ActivityAudioPlayer$12
- com.ezenit.isoleborromee.ActivityAudioPlayer$13
- com.ezenit.isoleborromee.ActivityAudioPlayer$14
- com.ezenit.isoleborromee.ActivityAudioPlayer$15
- com.ezenit.isoleborromee.ActivityAudioPlayer$16
- com.ezenit.isoleborromee.ActivityAudioPlayer$17
- com.ezenit.isoleborromee.ActivityAudioPlayer$2
- com.ezenit.isoleborromee.ActivityAudioPlayer$3
- com.ezenit.isoleborromee.ActivityAudioPlayer$4
- com.ezenit.isoleborromee.ActivityAudioPlayer$5
- com.ezenit.isoleborromee.ActivityAudioPlayer$6
- com.ezenit.isoleborromee.ActivityAudioPlayer$7
- com.ezenit.isoleborromee.ActivityAudioPlayer$8
- com.ezenit.isoleborromee.ActivityAudioPlayer$9
- com.ezenit.isoleborromee.ActivityAudioPlayer$ExamplePaneSizer
- com.ezenit.isoleborromee.ActivityAudioPlayer$OnChangeReceiver
+com/ezenit/isoleborromee/fragments/FragmentTOS.java
+ com.ezenit.isoleborromee.fragments.FragmentTOS
+ com.ezenit.isoleborromee.fragments.FragmentTOS$1
+com/ezenit/isoleborromee/fragments/FragmentMap.java
+ com.ezenit.isoleborromee.fragments.FragmentMap
+ com.ezenit.isoleborromee.fragments.FragmentMap$1
+ com.ezenit.isoleborromee.fragments.FragmentMap$2
+ com.ezenit.isoleborromee.fragments.FragmentMap$3
+ com.ezenit.isoleborromee.fragments.FragmentMap$4
+ com.ezenit.isoleborromee.fragments.FragmentMap$4$1
+ com.ezenit.isoleborromee.fragments.FragmentMap$4$2
+ com.ezenit.isoleborromee.fragments.FragmentMap$5
+ com.ezenit.isoleborromee.fragments.FragmentMap$6
+ com.ezenit.isoleborromee.fragments.FragmentMap$OnMapClickListener

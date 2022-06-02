@@ -8,12 +8,12 @@
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-xhdpi\\play2.png"
     },
     {
-        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bg_field.9.png.flat",
-        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-xhdpi\\bg_field.9.png"
-    },
-    {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\layout_fr_credits.xml.flat",
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\layout\\fr_credits.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bg_field.9.png.flat",
+        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-xhdpi\\bg_field.9.png"
     },
     {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_settings_default.png.flat",
@@ -28,20 +28,20 @@
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bg_home.png.flat",
-        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-xhdpi\\bg_home.png"
-    },
-    {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\layout_row_fr_language.xml.flat",
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\layout\\row_fr_language.xml"
     },
     {
-        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-sw800dp-xhdpi_logo_isole.png.flat",
-        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-sw800dp-xhdpi\\logo_isole.png"
+        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bg_home.png.flat",
+        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-xhdpi\\bg_home.png"
     },
     {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\layout_row_gallery_grid.xml.flat",
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\layout\\row_gallery_grid.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-sw800dp-xhdpi_logo_isole.png.flat",
+        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-sw800dp-xhdpi\\logo_isole.png"
     },
     {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable_bg_seekbar.xml.flat",
@@ -72,12 +72,12 @@
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-xxhdpi\\close2.png"
     },
     {
-        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable_bg_download_default.xml.flat",
-        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable\\bg_download_default.xml"
-    },
-    {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable_bg_list_row_white_default.xml.flat",
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable\\bg_list_row_white_default.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable_bg_download_default.xml.flat",
+        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable\\bg_download_default.xml"
     },
     {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\layout_acbar_title_subtitle.xml.flat",
@@ -92,12 +92,12 @@
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable\\ic_app_bck.xml"
     },
     {
-        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bg_language.png.flat",
-        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-xhdpi\\bg_language.png"
-    },
-    {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_app_back_default.png.flat",
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-xhdpi\\ic_app_back_default.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bg_language.png.flat",
+        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-xhdpi\\bg_language.png"
     },
     {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable_bg_button_museum.xml.flat",
@@ -204,12 +204,12 @@
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\layout\\fr_progress_view.xml"
     },
     {
-        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_close_accordion_default.png.flat",
-        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-xhdpi\\ic_close_accordion_default.png"
-    },
-    {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable_btn_rocca_d_angera.xml.flat",
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable\\btn_rocca_d_angera.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_close_accordion_default.png.flat",
+        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-xhdpi\\ic_close_accordion_default.png"
     },
     {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main.xml.flat",
@@ -230,6 +230,10 @@
     {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable_bg_list_row_child.xml.flat",
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable\\bg_list_row_child.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_logo.png.flat",
+        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\mipmap-hdpi\\ic_logo.png"
     },
     {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_isolamadre_bg.png.flat",
@@ -258,6 +262,10 @@
     {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_fr_audio_detail.xml.flat",
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\layout-sw800dp\\fr_audio_detail.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_logo.png.flat",
+        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\mipmap-xxhdpi\\ic_logo.png"
     },
     {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_logo_museum.png.flat",
@@ -344,12 +352,12 @@
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable\\bg_list_row_selected.xml"
     },
     {
-        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrow_green.png.flat",
-        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-xhdpi\\arrow_green.png"
+        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_logo.png.flat",
+        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\mipmap-xhdpi\\ic_logo.png"
     },
     {
-        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
-        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrow_green.png.flat",
+        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-xhdpi\\arrow_green.png"
     },
     {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\layout_fr_photo_gallery.xml.flat",
@@ -400,16 +408,16 @@
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-xhdpi\\ic_list_arrow_selected.png"
     },
     {
+        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_logo.png.flat",
+        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\mipmap-mdpi\\ic_logo.png"
+    },
+    {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_btn_bella.png.flat",
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-xxhdpi\\ic_btn_bella.png"
     },
     {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_pause2.xml.flat",
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-anydpi\\pause2.xml"
-    },
-    {
-        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable_bg_transparent.xml.flat",
@@ -608,10 +616,6 @@
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\layout\\fr_list_audio_guide.xml"
     },
     {
-        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
-        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_close2.png.flat",
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-hdpi\\close2.png"
     },
@@ -684,6 +688,10 @@
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\layout\\fr_alert.xml"
     },
     {
+        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_logo.png.flat",
+        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\mipmap-xxxhdpi\\ic_logo.png"
+    },
+    {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\layout_fr_download_view.xml.flat",
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\layout\\fr_download_view.xml"
     },
@@ -706,10 +714,6 @@
     {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-sw800dp-xhdpi_bg_download_default.xml.flat",
         "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-sw800dp-xhdpi\\bg_download_default.xml"
-    },
-    {
-        "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Android Projects\\E TEAM\\work\\IsoleBorromee\\isoleBorromee\\build\\intermediates\\res\\merged\\debug\\drawable_btn_isola_madre.xml.flat",

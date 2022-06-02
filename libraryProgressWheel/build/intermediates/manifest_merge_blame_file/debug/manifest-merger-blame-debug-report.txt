@@ -10,24 +10,21 @@
 9        android:targetSdkVersion="31" />
 9-->D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml
 10
-11    <application
-11-->D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:9:5-21:19
-12        android:icon="@drawable/ic_launcher"
-12-->D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:10:9-45
-13        android:label="@string/app_name" >
-13-->D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:11:9-41
-14
-15        <!--
-16        <activity
-17            android:label="@string/app_name"
-18            android:name="com.todddavies.components.progressbar.main" >
-19            <intent-filter >
-20                <action android:name="android.intent.action.MAIN" />
-21
-22                <category android:name="android.intent.category.LAUNCHER" />
-23            </intent-filter>
-24        </activity>
-25        -->
-26    </application>
-27
-28</manifest>
+11    <application android:label="@string/app_name" >
+11-->D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:9:5-20:19
+11-->D:\Android Projects\E TEAM\work\IsoleBorromee\libraryProgressWheel\src\main\AndroidManifest.xml:10:9-41
+12
+13        <!--
+14        <activity
+15            android:label="@string/app_name"
+16            android:name="com.todddavies.components.progressbar.main" >
+17            <intent-filter >
+18                <action android:name="android.intent.action.MAIN" />
+19
+20                <category android:name="android.intent.category.LAUNCHER" />
+21            </intent-filter>
+22        </activity>
+23        -->
+24    </application>
+25
+26</manifest>

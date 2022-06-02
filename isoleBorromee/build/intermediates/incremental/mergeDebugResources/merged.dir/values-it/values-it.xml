@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="languages">
+        <item>Italiano</item>
+        <item>Inglese</item>
+    </string-array>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d nuova notifica</item>
+    <item quantity="other">%d nuove notifiche</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Portami a casa"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Torna indietro"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Altre opzioni"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Fine"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Mostra tutto"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Scelta di un\'app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"OFF"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ON"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"ALT +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"CTRL +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"CANC"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"INVIO"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"FUNZIONE +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"META +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"MAIUSC +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"SPAZIO"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"SYM +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"MENU +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Cerca…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Cancella query"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Query di ricerca"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Invia query"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Ricerca vocale"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Condividi con"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Condividi tramite <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Comprimi"</string>
+    <string name="all_in_one">Tutto in uno</string>
+    <string name="app_name">Riflessioni Plastiche</string>
+    <string name="audio_guide">Audio guida</string>
+    <string name="audio_guide_garden">Guida dell’evento</string>
+    <string name="audio_guide_general">Audioguida generale</string>
+    <string name="audio_guide_load_failed">Audio guida danneggiata. Si prega di scaricarla nuovamente per risolvere il problema.</string>
+    <string name="audio_guide_palace">Audio guida</string>
+    <string name="automatic">Automatico</string>
+    <string name="bottomsheet_action_expand_halfway">Espandi a metà</string>
+    <string name="buy">Acquista</string>
+    <string name="buy_all_in_one">Isola Bella Audioguide,\nIsola Madre Audioguide,\nRocca d’Angera Audioguide</string>
+    <string name="cancel">Annulla</string>
+    <string name="character_counter_content_description">%1$d caratteri inserirti su %2$d</string>
+    <string name="character_counter_overflowed_content_description">Sono presenti %2$d caratteri in più rispetto al limite di %1$d</string>
+    <string name="clear_text_end_icon_content_description">Cancella testo</string>
+    <string name="close">Chiudi</string>
+    <string name="close_notification">Chiudi notifica</string>
+    <string name="cod_with_dot">Cod.</string>
+    <string name="code">Codice</string>
+    <string name="code_audio">Codice audio</string>
+    <string name="common_google_play_services_unknown_issue">%1$s sta riscontrando problemi con Google Play Services. Riprova.</string>
+    <string msgid="8230469354668895088" name="copy_toast_msg">"Link copiato negli appunti"</string>
+    <string name="cover_art">Copertina</string>
+    <string name="credits">Credits</string>
+    <string name="credits_desc"><![CDATA[Audioguida interattiva realizzata per<br/><b>S.A.G. srl</b><br/><br/>Progettazione e sviluppo<br/><b>Gruppo Zenit</b><br/><br/>Tutti i contenuti (testi, foto, audio) presenti all\'interno dell’app sono proprietà di S.A.G. srl e sono protetti dalla normativa sul diritto d\'autore, non potranno quindi essere pubblicati, riscritti, distribuiti, commercializzati. ]]></string>
+    <string name="download">Scarica</string>
+    <string name="download_all_bought">Vuoi scaricare ora tutti i contenuti acquistati?</string>
+    <string name="downloading">Scaricare</string>
+    <string name="downloading_audio_guide">Scarica audio guida</string>
+    <string name="dummy_codice">34567</string>
+    <string name="dummy_description">Lorem Ipsum is simply dummy text of the printing and 
+        typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever 
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but also the 
+        leap into electronic typesetting, remaining essentially unchanged. It was popularised
+        in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+        and more recently with desktop publishing software like Aldus PageMaker including 
+        versions of Lorem Ipsum.</string>
+    <string name="dummy_quatro_camerino">Quatro Camerino</string>
+    <string name="dummy_stanza_arrazi">Stanza Arrazzi (3)</string>
+    <string name="end">Fine</string>
+    <string name="error_icon_content_description">Errore</string>
+    <string name="exposed_dropdown_menu_content_description">Mostra il menu a discesa</string>
+    <string msgid="2615365786337886368" name="fallback_menu_item_copy_link">"Copia link"</string>
+    <string msgid="8984733760067120953" name="fallback_menu_item_open_in_browser">"Apri nel browser"</string>
+    <string msgid="271185644269364308" name="fallback_menu_item_share_link">"Condividi link"</string>
+    <string name="hyphen">-</string>
+    <string name="icon_content_description">Icona della finestra di dialogo</string>
+    <string name="image_desc">Descrizione</string>
+    <string name="image_title">Titolo</string>
+    <string name="image_unavailable">Immagine non disponibile</string>
+    <string name="in_queue">In coda</string>
+    <string name="infos">Informazioni</string>
+    <string name="installation_failed">Installazione non riuscita</string>
+    <string name="installing">Installazione</string>
+    <string name="installing_audio_guide">Installazione audio guida</string>
+    <string name="isola_bella">Riflessioni Plastiche</string>
+    <string name="isola_madre">Isola Madre</string>
+    <string name="isole_bela_desc"><![CDATA[La mostra diffusa, “Riflessioni Plastiche”, propone sei installazioni di Corrado Bonomi e Gianni Cella in dialogo con l’abitato di Cannobio. Si parla di “Riflessioni” perché il lavoro dei due artisti nasce da riflessioni sui temi della “condizione umana” e perché costruire una “mostra diffusa” richiede una riflessione sul luogo prescelto e sul suo tessuto urbanistico. “Plastiche” perché le riflessioni sui temi non possono essere separate da quelle sui materiali utilizzati (prevalentemente polimeri), sulle forme create e perché è necessaria una “plasticità” per poter interagire con un intero abitato soprattutto usando materiali definibili come “atipici” o inusuali. Per l’Antico Lavatoio è stato realizzato un progetto comune intitolato Perché svegliarsi? Le “Testine” dormienti e colorate di Cella sono adagiate sulle nuvole di poliestere, in cui in passato Bonomi aveva collocato i suoi molti Sogni e i Castelli in aria, mentre altre rosse è blu affiorano a pelo d’acqua. Presso il Palazzo Mandamentale Bonomi ha installato un Roseto e altre Culture, tutte opere parte di un ciclo iniziato nel 1992 che riproducono piante e fiori costruite con gli oggetti da giardinaggio, sottovasi, vasi, canne da irrigazione ecc. Cella colloca sugli scalini della corte i suoi personaggi quasi umani, Archetipi del disagio e Harvey, ispirati a un film americano degli anni cinquanta (Harvey, appunto) che racconta dell’ubriacone Elwood e del grande Coniglio Bianco che lo accompagna sempre e che solo lui può vedere. Lungo il portico della Chiesa di Santa Marta si arrampica un altro Roseto di Bonomi così come altre sue Culture dialogano, nella Corte interna di via Umberto I con il Caos Primigenio di Cella: un insieme di volti dalle diverse morfologie, ma stessi colori, disposti casualmente su di un muro in cemento grezzo come fossero cellule di una sorta di brodo primordiale. Due sculture di Cella, Fratelli Marx e Totem rosso, sono collocate ieraticamente nei Giardini del Palazzo Comunale quasi come ironici Dioscuri mentre gli Aeroplanoni di Bonomi in fogli di forex piegato e saldato, versione gigante dei razzetti che gli scolari facevano con le pagine strappate dai quaderni, si infilano nei cespugli e nel prato circostanti. Sul Lungolago, darsena, via Ceroni troviamo un’altra opera del ciclo Culture di Bonomi ovvero un grande fiore di circa tre metri d’altezza, i cui petali sono fatti, efficacemente, da grandi innaffiatoi.]]></string>
+    <string name="isole_borromee">Riflessioni\nPlastiche</string>
+    <string name="isole_madre_desc"><![CDATA[Questa fu la prima delle Isole dell’Arcipelago Borromeo a essere abitata dalla nobile famiglia milanese nel XVI secolo, e da questo primato deriva il  nome di “Isola Madre”. Il severo palazzo verso la sponda di Stresa venne costruito sotto la direzione di Pellegrino Tibaldi, architetto e pittore assai celebre nel Cinquecento, attivo per il cardinale Carlo Borromeo e il re Filippo II di Spagna. Visitare il palazzo è come fare un tuffo nel passato perché gli arredi che arricchiscono le sale risalgono in prevalenza ai primi anni del Seicento.<br/>Un tempo esistevano anche i coevi giardini all’italiana, terrazzati e ricchi di alberi da frutta. Oggi tutto il verde dell’Isola Madre è un esempio mirabile di giardino romantico all’inglese, con masse di verde che si aprono all’improvviso sul paesaggio circostante e che offrono nelle stagioni primaverili ed estive spettacolari fioriture. Ma il giardino dell’Isola Madre pullula anche di “vita”: innumerevoli uccelli ornamentali  soggiornano sereni e indisturbati tra i prati e le radure del parco.]]></string>
+    <string name="item_already_purchased">Elemento già acquistato , si prega di ripristinare da impostazioni</string>
+    <string name="item_view_role_description">Scheda</string>
+    <string name="language">Lingua</string>
+    <string name="link_1">Corrado Bonomi - Iscrizione Newsletter</string>
+    <string name="link_2">Gianni Cella - Iscrizione Newsletter</string>
+    <string name="link_3">Quiz della mostra</string>
+    <string name="map_del_palazzo">Mappa dell’evento</string>
+    <string name="material_clock_toggle_content_description">Seleziona AM o PM</string>
+    <string name="material_hour_selection">Seleziona l\'ora</string>
+    <string name="material_hour_suffix">%1$s in punto</string>
+    <string name="material_minute_selection">Seleziona i minuti</string>
+    <string name="material_minute_suffix">%1$s minuti</string>
+    <string name="material_timepicker_am">am</string>
+    <string name="material_timepicker_clock_mode_description">Passa alla modalità orologio per inserire l\'ora.</string>
+    <string name="material_timepicker_hour">Ora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">pm</string>
+    <string name="material_timepicker_select_time">Seleziona l\'ora</string>
+    <string name="material_timepicker_text_input_mode_description">Passa alla modalità di immissione testo per inserire l\'ora.</string>
+    <string name="msg_buy_ag_isole_bella">Acquista l\'audioguida completa dell\'Isola Bella</string>
+    <string name="msg_buy_ag_isole_madre">Acquista l\'audioguida completa dell\'Isola Madre</string>
+    <string name="msg_buy_all">E\' possibile acquistare tutte le guide ad un prezzo speciale</string>
+    <string name="msg_download_gallery">E\' possibile scaricare gratuitamente la galleria</string>
+    <string name="msg_inapp_error_purchasing"/>
+    <string name="msg_inapp_user_cancelled">L\'acquisto è stato annullato dall\'utente</string>
+    <string name="msg_inapp_verification_failed">Errore, verifica di autenticità non riuscita .</string>
+    <string name="msg_title_palazzo">Audio guida dell’evento</string>
+    <string name="mtrl_badge_numberless_content_description">Nuova notifica</string>
+    <string name="mtrl_chip_close_icon_content_description">Rimuovi %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Più di %1$d nuove notifiche</string>
+    <string name="mtrl_picker_a11y_next_month">Passa al mese successivo</string>
+    <string name="mtrl_picker_a11y_prev_month">Passa al mese precedente</string>
+    <string name="mtrl_picker_announce_current_selection">Selezione attuale: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Seleziona data</string>
+    <string name="mtrl_picker_date_header_unselected">Data selezionata</string>
+    <string name="mtrl_picker_day_of_week_column_header">Colonna dei giorni: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato non valido.</string>
+    <string name="mtrl_picker_invalid_format_example">Esempio: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usa: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Intervallo non valido.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Vai all\'anno %1$s</string>
+    <string name="mtrl_picker_out_of_range">Non compresa nell\'intervallo: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Data di inizio - %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s - Data di fine</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">Seleziona intervallo</string>
+    <string name="mtrl_picker_range_header_unselected">Data di inizio - Data di fine</string>
+    <string name="mtrl_picker_save">Salva</string>
+    <string name="mtrl_picker_text_input_date_hint">Data</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Data di fine</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Data di inizio</string>
+    <string name="mtrl_picker_text_input_day_abbr">g</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Passa alla modalità di immissione Calendario</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tocca per passare alla selezione di un giorno</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Passa alla modalità di immissione Testo</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tocca per passare alla selezione di un anno</string>
+    <string name="next_song">Canzone successiva</string>
+    <string name="notification_title_paused">%s ( Pausa )</string>
+    <string name="nr_audio">Nr. audio</string>
+    <string name="password_toggle_content_description">Mostra password</string>
+    <string name="pause">Pausa</string>
+    <string name="pause_audio">Pausa audio</string>
+    <string name="photo_gallery">Galleria Fotografica</string>
+    <string name="play_audio">Riproduci audio</string>
+    <string name="play_off">Play: OFF</string>
+    <string name="play_on">Play: ON</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="position">Posizione:</string>
+    <string name="preparing">Preparazione</string>
+    <string name="queueing">In coda</string>
+    <string name="restore_failed">Ripristino fallito , riprovare più tardi</string>
+    <string name="restore_no_prev_purchase">Nessun precedente acquisto trovato da ripristinare</string>
+    <string name="restore_successful">Ripristino di successo</string>
+    <string name="restore_your_purchase">Vuoi ripristinare i tuoi acquisti?</string>
+    <string name="restoring_your_purchase">Ripristino tuoi acquisti</string>
+    <string name="rocca_d_angera">Rocca d\'Angera</string>
+    <string name="rocca_d_angera_desc"><![CDATA[La Rocca di Angera è una fortezza medievale perfettamente e integralmente conservata. Venne eretta dalla famiglia dei Visconti in un punto spettacolare e strategico sopra una rupe che domina la parte meridionale del Lago Maggiore. I Visconti vi fecero dipingere al suo interno un ciclo di affreschi importantissimo, nel quale si narra la decisiva vittoria dei Visconti sulla rivale famiglia dei Torriani nel 1277, che portò la stirpe viscontea al dominio della città di Milano.<br/>Nel XV secolo la Rocca di Angera passò alla famiglia Borromeo che la conservò intatta e immutata fino ai nostri giorni, arricchendola al suo interno di arredi di pregio e di singolari collezioni, come la ricchissima raccolta di bambole e giocattoli storici.<br/>Attorno alla Rocca è stato recentemente ricostruito il Giardino Medievale.  Un luogo apparato e incantato che ripropone fedelmente le forme e gli usi dei giardini nel Medioevo, che erano soprattutto dei luoghi di produzione. Per questo ci imbattiamo nei “verzieri” delle verdure e nei frutteti, nel giardino delle erbe medicinali e in quello dei fiori (riservato ai castellani). Per arrivare infine ai “boschetti”, che separavano il giardino dai prati dove pascolava tranquillo il bestiame.]]></string>
+    <string name="room">Posizione</string>
+    <string name="search_by_code">Cerca per nome o per codice</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Cerca"</string>
+    <string name="select_fav_language">Seleziona la lingua.</string>
+    <string name="select_language">Benvenuto nell’audioguida dell’evento Riflessioni Plastiche.</string>
+    <string name="settings">Impostazioni</string>
+    <string name="special_offer">Offerta Speciale</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="sub_title_new">Cannobio</string>
+    <string name="terms_of_service">Termini del servizio</string>
+    <string name="title_new">Mostra Riflessioni Plastiche</string>
+    <string name="version">Versione</string>
+    <string name="welcome">Benvenuti nell\'audioguida dell’evento Riflessioni Plastiche.</string>
+    <string name="where_is_it">Dove si trova</string>
+</resources>

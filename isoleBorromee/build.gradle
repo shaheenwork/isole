@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 31
@@ -8,6 +9,8 @@ android {
         applicationId "com.ezenit.isoleborromee"
         minSdkVersion 26
         targetSdkVersion 31
+        versionCode 1
+        versionName "1.0"
     }
 
     buildTypes {
@@ -25,15 +28,16 @@ android {
 dependencies {
     implementation 'com.google.android.material:material:1.6.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
-    compile project(':libraryProgressWheel')
-    compile project(':slidingPaneLibrary')
-    compile project(':slidingTabPanelLibrary')
-    compile project(':imageLoaderLibrary')
-    compile project(':stickyScrollViewLibrary')
+    implementation project(':libraryProgressWheel')
+    implementation project(':slidingPaneLibrary')
+    implementation project(':slidingTabPanelLibrary')
+    implementation project(':imageLoaderLibrary')
+    implementation project(':stickyScrollViewLibrary')
     implementation 'com.asksira.android:webviewsuite:1.0.3'
-    compile project(':imageMapLibrary')
+    implementation project(':imageMapLibrary')
     implementation 'androidx.browser:browser:1.2.0'
-    compile 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
     implementation 'androidx.media:media:1.0.0'
-    compile files('libs/crashlytics.jar')
+    implementation files('libs/crashlytics.jar')
+    implementation 'com.google.firebase:firebase-analytics:21.0.0'
 }
